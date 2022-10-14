@@ -1,0 +1,58 @@
+.section-3 {
+  height: 90vh;
+  position: relative;
+}
+
+.section-3 .bg-img {
+  width: 55rem;
+  position: absolute;
+  top: 5rem;
+  left: 15rem;
+}
+
+.section-3 .text-container {
+  width: 55rem;
+  position: absolute;
+  top: 7rem;
+  right: 15rem;
+}
+
+.section-3 h2 {
+  font-size: 4rem;
+  color: #8a46ff;
+}
+
+.section-3 h1 {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+}
+
+.section-3 p {
+  font-size: 2rem;
+  color: #5e6278;
+  padding-bottom: 1rem;
+}
+
+.section-3 span {
+  color: #20c997;
+}
+
+.section-3 .btn-container {
+  display: flex;
+}
+
+.section-3 .btn {
+  font-size: 1.8rem;
+  background-color: #8a46ff;
+  color: #ffffff;
+  padding: 1.8rem 5rem;
+  margin-top: 3rem;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.section-3 .btn:hover {
+  background-color: #6610f2;
+}
