@@ -1,0 +1,45 @@
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.section-2 h2 {
+  font-size: 5rem;
+  color: #3f4254;
+  margin-bottom: 5rem;
+}
+
+.blockchain-container {
+  display: flex;
+  width: 120rem;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.blockchain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-2 img {
+  width: 8rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.section-2 p {
+  font-size: 2.8rem;
+  cursor: pointer;
+  color: #7e8299;
+  transition: all 0.2s;
+}
+
+.section-2 p:hover {
+  color: #5e6278;
+}
