@@ -1,0 +1,73 @@
+.section-5 {
+  height: 80vh;
+  position: relative;
+}
+
+.section-5 .text-container {
+  width: 55rem;
+  position: absolute;
+  top: 10rem;
+  left: 20rem;
+}
+
+.section-5 h2 {
+  font-size: 4rem;
+  color: #8a46ff;
+  padding-bottom: 2rem;
+}
+
+.section-5 h1 {
+  font-size: 5rem;
+  padding-bottom: 2rem;
+}
+
+.section-5 p {
+  font-size: 2rem;
+  color: #5e6278;
+  padding-bottom: 5rem;
+}
+
+.section-3 span {
+  color: #20c997;
+}
+
+.section-5 .btn-container {
+  display: flex;
+}
+
+.section-5 .btn {
+  font-size: 1.8rem;
+  padding: 1.8rem 2rem;
+  border: 2px solid #8a46ff;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.section-5 .btn-1 {
+  background-color: #8a46ff;
+  color: #ffffff;
+  margin-right: 3rem;
+}
+
+.section-5 .btn-1:hover {
+  background-color: #6610f2;
+  border-color: #6610f2;
+}
+
+.section-5 .btn-2 {
+  background-color: #ffffff;
+  color: #8a46ff;
+}
+
+.section-5 .btn-2:hover {
+  background-color: #8a46ff;
+  color: #ffffff;
+}
+
+.section-5 .bg-img {
+  width: 60rem;
+  position: absolute;
+  top: 0;
+  right: 15rem;
+}
