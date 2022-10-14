@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.3rem 15rem;
+  margin-top: 2rem;
+}
+
+.logo-heading {
+  font-size: 5rem;
+  font-weight: 400;
+  color: #8a46ff;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.list-item {
+  font-size: 1.7rem;
+  padding: 1rem 2.5rem;
+  color: #5e6278;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.list-item:hover {
+  color: #3f4254;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-btn {
+  font-size: 1.8rem;
+  padding: 1.5rem 2rem;
+  background-color: #8a46ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 1rem;
+  margin-left: 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.nav-btn:hover {
+  background-color: #6610f2;
+}
