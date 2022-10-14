@@ -1,0 +1,64 @@
+.section-1 {
+  height: 80vh;
+}
+
+.section-1 .text-container {
+  width: 50%;
+  padding: 8rem 0rem 0rem 15rem;
+}
+
+.section-1 .heading {
+  font-size: 7rem;
+  line-height: 10rem;
+}
+
+.section-1 span {
+  color: #8a46ff;
+}
+
+.section-1 .paragraph {
+  font-size: 2.2rem;
+  color: #5e6278;
+  padding: 2rem 0 6rem 0;
+}
+
+.section-1 .btn-container {
+  display: flex;
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1.8rem 5rem;
+  border: 2px solid #8a46ff;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-1 {
+  background-color: #8a46ff;
+  color: #ffffff;
+  margin-right: 3rem;
+}
+
+.btn-1:hover {
+  background-color: #6610f2;
+  border-color: #6610f2;
+}
+
+.btn-2 {
+  background-color: #ffffff;
+  color: #8a46ff;
+}
+
+.btn-2:hover {
+  background-color: #8a46ff;
+  color: #ffffff;
+}
+
+.section-1 .bg-img {
+  width: 60rem;
+  position: absolute;
+  top: 11rem;
+  right: 13rem;
+}
