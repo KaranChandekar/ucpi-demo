@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { ScrollTo } from "react-scroll-to/dist";
 
 export const Header = () => {
   return (
@@ -8,13 +9,57 @@ export const Header = () => {
         <p className="logo-heading">UCPI</p>
       </div>
       <div className="nav">
-        <ul className="nav-list">
-          <li className="list-item">Home</li>
-          <li className="list-item"> About</li>
-          <li className="list-item">Services</li>
-          <li className="list-item">The team</li>
-          <li className="list-item">Portfolio</li>
-        </ul>
+        <ScrollTo>
+          {({ scroll }) => (
+            <a
+              className="list-item"
+              onClick={() => scroll({ y: 0, smooth: true })}
+            >
+              Home
+            </a>
+          )}
+        </ScrollTo>
+        <ScrollTo>
+          {({ scroll }) => (
+            <a
+              className="list-item"
+              onClick={() => scroll({ y: 1000, smooth: true })}
+            >
+              About
+            </a>
+          )}
+        </ScrollTo>
+        <ScrollTo>
+          {({ scroll }) => (
+            <a
+              className="list-item"
+              onClick={() => scroll({ y: 1700, smooth: true })}
+            >
+              Services
+            </a>
+          )}
+        </ScrollTo>
+        <ScrollTo>
+          {({ scroll }) => (
+            <a
+              className="list-item"
+              onClick={() => scroll({ y: 3500, smooth: true })}
+            >
+              The team
+            </a>
+          )}
+        </ScrollTo>
+        <ScrollTo>
+          {({ scroll }) => (
+            <a
+              className="list-item"
+              onClick={() => scroll({ x: 20, y: 500, smooth: true })}
+            >
+              Portfolio
+            </a>
+          )}
+        </ScrollTo>
+
         <button className="nav-btn">Get in touch</button>
       </div>
     </div>

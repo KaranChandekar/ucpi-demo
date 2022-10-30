@@ -17,12 +17,6 @@
   display: flex;
 }
 
-.nav-list {
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-
 .list-item {
   font-size: 1.7rem;
   padding: 1rem 2.5rem;
