@@ -1,8 +1,15 @@
 import React from "react";
 import bg1 from "../images/bg1.jpg";
 import "./Section1.css";
+import Lottie from "react-lottie";
+import cryptoCurrency from "../../Lotties/cryptocurrency-lottie-animation.json";
 
 export const Section1 = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: cryptoCurrency,
+  };
   return (
     <div className="section-1">
       <div className="text-container">
@@ -17,7 +24,9 @@ export const Section1 = () => {
           <button className="btn btn-2">Learn More</button>
         </div>
       </div>
-      <img className="bg-img" src={bg1} alt="background img" />
+      <div className="bg-img">
+        <Lottie options={defaultOptions} />
+      </div>
     </div>
   );
 };
