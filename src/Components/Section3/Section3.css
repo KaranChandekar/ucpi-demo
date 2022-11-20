@@ -14,6 +14,8 @@
 }
 
 .section-3 .headings {
+  display: flex;
+  flex-direction: column;
   margin-left: 5rem;
 }
 
@@ -62,5 +64,21 @@
 @media (max-width: 1300px) {
   .section-3 {
     padding: 3rem 5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section-3 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section-3 .headings {
+    align-items: center;
+    margin: 0;
+  }
+
+  .blockchain-container {
+    margin-right: 0;
   }
 }

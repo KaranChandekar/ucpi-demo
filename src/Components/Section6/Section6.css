@@ -1,13 +1,15 @@
 .section-6 {
   height: 80vh;
   position: relative;
+  display: flex;
+  padding: 5rem 15rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
 .section-6 .text-container {
   width: 55rem;
-  position: absolute;
-  top: 10rem;
-  left: 15rem;
 }
 
 .section-6 h2 {
@@ -68,9 +70,6 @@
 
 .section-6 .bg-img {
   width: 55rem;
-  position: absolute;
-  top: 0;
-  right: 15rem;
 }
 
 @media (max-width: 1300px) {
@@ -80,5 +79,17 @@
 
   .section-6 .bg-img {
     right: 5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section-6 {
+    flex-direction: column-reverse;
+    height: 110vh;
+    text-align: center;
+  }
+
+  .section-6 .btn-container {
+    justify-content: center;
   }
 }

@@ -48,3 +48,18 @@
     width: 65rem;
   }
 }
+
+@media (max-width: 1000px) {
+  .section-2 {
+    flex-direction: column;
+  }
+
+  .feature-description-container {
+    justify-content: center;
+    width: 90%;
+  }
+
+  .feature-description {
+    margin: 5rem;
+  }
+}

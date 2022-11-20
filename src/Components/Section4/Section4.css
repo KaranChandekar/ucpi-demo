@@ -1,21 +1,18 @@
 .section-4 {
   height: 85vh;
   position: relative;
+  display: flex;
   background-color: #6783ff08;
+  padding: 5rem 15rem;
+  justify-content: space-between;
 }
 
 .section-4 .bg-img {
   width: 55rem;
-  position: absolute;
-  top: 5rem;
-  left: 15rem;
 }
 
 .section-4 .text-container {
   width: 55rem;
-  position: absolute;
-  top: 7rem;
-  right: 15rem;
 }
 
 .section-4 h2 {
@@ -67,5 +64,14 @@
 
   .section-4 .text-container {
     right: 5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section-4 {
+    height: 120vh;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
   }
 }

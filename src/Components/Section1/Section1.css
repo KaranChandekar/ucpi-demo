@@ -1,10 +1,13 @@
 .section-1 {
   height: 80vh;
+  display: flex;
+  padding: 5rem 15rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .section-1 .text-container {
   width: 50%;
-  padding: 13rem 0rem 0rem 15rem;
 }
 
 .section-1 .heading {
@@ -58,19 +61,27 @@
 
 .section-1 .bg-img {
   width: 60rem;
-  position: absolute;
-  top: 13rem;
-  right: 13rem;
 }
 
 @media (max-width: 1300px) {
-  .section-1 .text-container {
-    padding: 13rem 0rem 0rem 5rem;
+  .section-1 {
+    padding: 5rem;
   }
 
   .section-1 .bg-img {
     width: 50rem;
-    right: 5rem;
-    top: 16rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section-1 {
+    flex-direction: column-reverse;
+    height: 130vh;
+    padding-top: 10rem;
+    text-align: center;
+  }
+
+  .section-1 .text-container {
+    width: 80%;
   }
 }
