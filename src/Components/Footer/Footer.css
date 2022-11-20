@@ -26,8 +26,7 @@
 .form input {
   padding: 2rem 0 2rem 2rem;
   border-style: none;
-  background-color: #8a46ff;
-  color: #fff;
+  border: 1px solid #8a46ff;
   font-size: 1.5rem;
   border-radius: 0.5rem;
   width: 30rem;
@@ -35,7 +34,7 @@
 }
 
 .form input::placeholder {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .form input:focus {
@@ -80,5 +79,15 @@
 @media (max-width: 1300px) {
   .footer {
     padding: 4rem 5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer-top {
+    flex-direction: column;
+  }
+
+  .subscribe-container {
+    margin-top: 2rem;
   }
 }

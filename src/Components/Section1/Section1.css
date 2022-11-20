@@ -85,3 +85,22 @@
     width: 80%;
   }
 }
+
+@media (max-width: 700px) {
+  .section-1 {
+    height: 110vh;
+  }
+
+  .section-1 .text-container {
+    width: 100%;
+  }
+
+  .section-1 .heading {
+    font-size: 6rem;
+    line-height: 8rem;
+  }
+
+  .section-1 .bg-img {
+    width: 40rem;
+  }
+}
