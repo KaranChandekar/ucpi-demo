@@ -26,7 +26,7 @@ export const Header = () => {
           <Link
             className="list-item"
             activeClass="active"
-            to="section-2"
+            to="section-1"
             spy={true}
             smooth={true}
             offset={50}
@@ -37,7 +37,7 @@ export const Header = () => {
           <Link
             className="list-item"
             activeClass="active"
-            to="section-3"
+            to="section-2"
             spy={true}
             smooth={true}
             offset={50}
@@ -54,29 +54,29 @@ export const Header = () => {
             offset={50}
             duration={500}
           >
-            Benefits
+            About Us
           </Link>
           <Link
             className="list-item"
             activeClass="active"
             to="section-5"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Benefits
+          </Link>
+          <Link
+            className="list-item"
+            activeClass="active"
+            to="section-6"
             spy={true}
             smooth={true}
             offset={50}
             duration={500}
           >
             Know More
-          </Link>
-          <Link
-            className="list-item"
-            activeClass="active"
-            to="section-5"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            Portfolio
           </Link>
 
           <button className="nav-btn">Get in touch</button>
