@@ -18,7 +18,7 @@ export const Section1 = () => {
         <p className="paragraph">
           Decentralised infra for Web3 UX and Payments
         </p>
-        <div className="buttons-container">
+        <div className="btn-container">
           <button className="btn btn-1">Get Started</button>
           <button className="btn btn-2">Learn More</button>
         </div>

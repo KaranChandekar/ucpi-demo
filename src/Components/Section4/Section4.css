@@ -75,3 +75,17 @@
     text-align: center;
   }
 }
+
+@media (max-width: 500px) {
+  .section-4 {
+    height: 100vh;
+    padding: 3rem 0;
+  }
+  .section-4 .text-container {
+    width: 80%;
+  }
+
+  .section-4 .bg-img {
+    width: 100%;
+  }
+}

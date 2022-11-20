@@ -21,6 +21,7 @@
 
 .form {
   margin: 2rem 0;
+  display: flex;
 }
 
 .form input {
@@ -31,10 +32,6 @@
   border-radius: 0.5rem;
   width: 30rem;
   margin-right: 2rem;
-}
-
-.form input::placeholder {
-  /* color: #fff; */
 }
 
 .form input:focus {
@@ -48,8 +45,9 @@
   color: #fff;
   font-size: 1.5rem;
   border-radius: 0.5rem;
-  width: 30rem;
+  width: 15rem;
   text-decoration: none;
+  text-align: center;
 }
 
 .footer-bottom {
@@ -89,5 +87,29 @@
 
   .subscribe-container {
     margin-top: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    padding: 3rem 2rem;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+
+  .form input {
+    margin-bottom: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-bottom .links {
+    margin-bottom: 4rem;
   }
 }

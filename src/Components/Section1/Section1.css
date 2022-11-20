@@ -104,3 +104,31 @@
     width: 40rem;
   }
 }
+
+@media (max-width: 500px) {
+  .section-1 {
+    height: 95vh;
+    padding: 1rem;
+    padding-top: 10rem;
+  }
+
+  .section-1 .heading {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  .section-1 .paragraph {
+    padding: 2rem 0 3rem 0;
+  }
+
+  .section-1 .btn-container {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .btn-1 {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}

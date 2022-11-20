@@ -70,3 +70,13 @@
     padding: 3rem 2rem;
   }
 }
+
+@media (max-width: 500px) {
+  .section-5 {
+    padding: 0;
+  }
+
+  .section-5 .text-container {
+    width: 90%;
+  }
+}

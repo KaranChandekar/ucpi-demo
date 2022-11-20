@@ -76,10 +76,6 @@
   .section-6 .text-container {
     left: 5rem;
   }
-
-  .section-6 .bg-img {
-    right: 5rem;
-  }
 }
 
 @media (max-width: 1000px) {
@@ -91,5 +87,28 @@
 
   .section-6 .btn-container {
     justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .section-6 {
+    height: 90vh;
+    padding: 5rem 1rem;
+  }
+
+  .section-6 .text-container {
+    width: 100%;
+  }
+
+  .section-6 .btn-container {
+    flex-direction: column;
+  }
+
+  .section-6 .bg-img {
+    width: 100%;
+  }
+
+  .section-6 .btn-1 {
+    margin-right: 0;
   }
 }

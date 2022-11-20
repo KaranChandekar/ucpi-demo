@@ -82,3 +82,12 @@
     margin-right: 0;
   }
 }
+
+@media (max-width: 500px) {
+  .section-3 {
+    padding: 3rem 1rem;
+  }
+  .blockchain-container {
+    width: 100%;
+  }
+}

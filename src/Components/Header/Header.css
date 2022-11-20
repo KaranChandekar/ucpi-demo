@@ -68,6 +68,7 @@ header {
     left: 0;
     right: 0;
     z-index: 1000;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   }
 
   #menu-bar {
@@ -90,11 +91,22 @@ header {
 
   header .nav .list-item {
     padding: 1.5rem 0;
-    margin: 1.5rem 5rem;
+    margin: 1.5rem;
     display: block;
   }
 
   header .nav-btn {
-    margin-left: 5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    padding: 2.3rem 1rem;
+  }
+
+  .logo-heading {
+    font-size: 4rem;
   }
 }
