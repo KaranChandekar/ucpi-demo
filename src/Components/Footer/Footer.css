@@ -1,5 +1,5 @@
 .footer {
-  padding: 0 15rem;
+  padding: 4rem 15rem;
   background-color: #6783ff08;
 }
 
@@ -75,4 +75,10 @@
   text-decoration: none;
   font-size: 1.5rem;
   margin: 0 2rem;
+}
+
+@media (max-width: 1300px) {
+  .footer {
+    padding: 4rem 5rem;
+  }
 }

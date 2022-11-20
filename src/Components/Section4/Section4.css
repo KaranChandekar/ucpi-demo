@@ -32,7 +32,7 @@
 
 .section-4 p {
   font-size: 2rem;
-  color: #32325D;
+  color: #32325d;
   padding-bottom: 1rem;
 }
 
@@ -58,4 +58,14 @@
 
 .section-4 .btn:hover {
   background-color: #6610f2;
+}
+
+@media (max-width: 1300px) {
+  .section-4 .bg-img {
+    left: 5rem;
+  }
+
+  .section-4 .text-container {
+    right: 5rem;
+  }
 }

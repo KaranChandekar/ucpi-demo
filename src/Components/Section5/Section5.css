@@ -58,6 +58,12 @@
   text-align: justify;
 }
 
+@media (max-width: 1300px) {
+  .section-5 {
+    padding: 0 5rem;
+  }
+}
+
 @media (max-width: 800px) {
   .card {
     height: auto;

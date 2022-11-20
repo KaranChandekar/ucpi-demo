@@ -38,3 +38,13 @@
   font-size: 2.2rem;
   color: #32325d;
 }
+
+@media (max-width: 1300px) {
+  .section-2 {
+    padding: 0 5rem;
+  }
+
+  .feature-description-container {
+    width: 65rem;
+  }
+}

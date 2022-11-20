@@ -44,3 +44,9 @@
 .nav-btn:hover {
   background-color: #6610f2;
 }
+
+@media (max-width: 1300px) {
+  .header {
+    padding: 2.3rem 5rem;
+  }
+}

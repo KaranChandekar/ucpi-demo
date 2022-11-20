@@ -18,7 +18,7 @@
 
 .section-1 .paragraph {
   font-size: 2.2rem;
-  color: #32325D;
+  color: #32325d;
   padding: 2rem 0 6rem 0;
 }
 
@@ -61,4 +61,16 @@
   position: absolute;
   top: 13rem;
   right: 13rem;
+}
+
+@media (max-width: 1300px) {
+  .section-1 .text-container {
+    padding: 13rem 0rem 0rem 5rem;
+  }
+
+  .section-1 .bg-img {
+    width: 50rem;
+    right: 5rem;
+    top: 16rem;
+  }
 }

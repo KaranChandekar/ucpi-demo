@@ -72,3 +72,13 @@
   top: 0;
   right: 15rem;
 }
+
+@media (max-width: 1300px) {
+  .section-6 .text-container {
+    left: 5rem;
+  }
+
+  .section-6 .bg-img {
+    right: 5rem;
+  }
+}
