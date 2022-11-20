@@ -1,0 +1,40 @@
+.section-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15rem;
+  background-color: #6783ff08;
+}
+
+.section-2 h1 {
+  font-size: 5rem;
+  width: 50rem;
+  margin-top: 4rem;
+}
+
+.feature-description-container {
+  width: 70rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.feature-description {
+  width: 26rem;
+  margin: 5rem 5rem 5rem 0;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-description img {
+  width: 5rem;
+  margin-bottom: 3rem;
+}
+
+.feature-description p {
+  font-size: 2.2rem;
+  color: #32325d;
+}

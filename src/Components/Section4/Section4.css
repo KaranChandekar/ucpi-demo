@@ -1,6 +1,7 @@
 .section-4 {
-  height: 90vh;
+  height: 85vh;
   position: relative;
+  background-color: #6783ff08;
 }
 
 .section-4 .bg-img {
@@ -19,7 +20,7 @@
 
 .section-4 h2 {
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 600;
   color: #8a46ff;
   margin-bottom: 2rem;
 }
