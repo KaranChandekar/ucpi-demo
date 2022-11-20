@@ -35,7 +35,7 @@ export const Header = () => {
               className="list-item"
               onClick={() => scroll({ y: 1700, smooth: true })}
             >
-              Services
+              Benefits
             </a>
           )}
         </ScrollTo>

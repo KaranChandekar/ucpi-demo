@@ -7,36 +7,46 @@
 }
 
 .section-3 h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #8a46ff;
+  margin-bottom: 2rem;
+}
+
+.section-3 h1 {
   font-size: 5rem;
-  color: #3f4254;
   margin-bottom: 5rem;
 }
 
 .blockchain-container {
   display: flex;
-  width: 120rem;
-  justify-content: space-between;
+  width: 100rem;
+  justify-content: center;
   padding: 2rem;
+  flex-wrap: wrap;
 }
 
 .blockchain {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 0 4rem;
 }
 
 .section-3 img {
-  width: 8rem;
+  width: 5rem;
+  padding: 1rem;
+  background-color: rgb(243, 242, 250);
   border-radius: 1rem;
   margin-bottom: 2rem;
   cursor: pointer;
 }
 
 .section-3 p {
-  font-size: 2.8rem;
+  font-size: 2rem;
   cursor: pointer;
-  color: #7e8299;
+  color: #32325D;
   transition: all 0.2s;
 }
 

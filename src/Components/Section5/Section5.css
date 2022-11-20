@@ -13,53 +13,52 @@
 }
 
 .section-5 .text-container h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 400;
   color: #8a46ff;
+  margin-bottom: 2rem;
 }
 
 .section-5 .text-container h1 {
   font-size: 5rem;
-  font-weight: 500;
-}
-
-.section-5 .text-container p {
-  font-size: 2rem;
-  padding: 1rem 0;
-  color: #5e6278;
 }
 
 .cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 35rem;
+  height: 35rem;
+  text-align: center;
+  margin: 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0px 0px 5px 0px rgba(76, 87, 125, 0.25);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.cards-wrapper {
-  display: flex;
-  justify-content: space-between;
-}
-
-.card {
-  width: 35rem;
-  text-align: center;
-  margin: 4rem;
-  border-radius: 0.8rem;
-  box-shadow: 0px 0px 20px 0px rgba(76, 87, 125, 0.25);
-}
-
 .card-heading {
   font-size: 3rem;
   font-weight: 500;
-  color: #3f4254;
-  color: #5e6278;
-  padding: 3rem 2rem;
+  color: #32325d;
+  padding: 0 2rem 2rem;
 }
 
 .card-para {
   font-size: 2rem;
-  color: #7E8299;
-  padding: 0 4rem 3rem;
+  color: #32325d;
+  padding: 0 2rem;
   text-align: justify;
+}
+
+@media (max-width: 800px) {
+  .card {
+    height: auto;
+  }
 }

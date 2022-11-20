@@ -7,13 +7,14 @@
   width: 55rem;
   position: absolute;
   top: 10rem;
-  left: 20rem;
+  left: 15rem;
 }
 
 .section-6 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
+  font-weight: 400;
   color: #8a46ff;
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .section-6 h1 {
@@ -23,7 +24,7 @@
 
 .section-6 p {
   font-size: 2rem;
-  color: #5e6278;
+  color: #32325D;
   padding-bottom: 5rem;
 }
 

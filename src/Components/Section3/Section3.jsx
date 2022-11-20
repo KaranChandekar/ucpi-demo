@@ -10,7 +10,8 @@ import "./Section3.css";
 export const Section3 = () => {
   return (
     <section className="section-3">
-      <h2>Supported BlockChains</h2>
+      <h2>Your_id@ucpi or Your_id@brand_name</h2>
+      <h1>Supported BlockChains</h1>
       <div className="blockchain-container">
         <div className="blockchain">
           <img src={ethereum} alt="" />
@@ -30,7 +31,7 @@ export const Section3 = () => {
         </div>
         <div className="blockchain">
           <img src={binance} alt="" />
-          <p>Binance Smart Chain</p>
+          <p>Binance</p>
         </div>
       </div>
     </section>
