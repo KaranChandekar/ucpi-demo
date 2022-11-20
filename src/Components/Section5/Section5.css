@@ -33,7 +33,7 @@
 
 .card {
   width: 35rem;
-  height: 30rem;
+  height: 33rem;
   text-align: center;
   margin: 2rem;
   border-radius: 0.8rem;
@@ -54,7 +54,7 @@
 .card-para {
   font-size: 2rem;
   color: #32325d;
-  padding: 0 2rem;
+  padding: 0 2.5rem;
   text-align: justify;
 }
 
