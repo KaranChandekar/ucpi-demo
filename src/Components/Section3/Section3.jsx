@@ -1,27 +1,37 @@
 import React from "react";
-import bg2 from "../images/bg4.svg";
+import ethereum from "../images/Blockchains/ethereum.png";
+import polygon from "../images/Blockchains/polygon.png";
+import tron from "../images/Blockchains/tron.png";
+import solana from "../images/Blockchains/solana.png";
+import binance from "../images/Blockchains/binance.png";
+
 import "./Section3.css";
 
 export const Section3 = () => {
   return (
-    <div className="section-3" id="section-3">
-      <img className="bg-img" src={bg2} alt="background img" />
-      <div className="text-container">
-        <h2>About Us</h2>
-        <h1>Who we are?</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-          distinctio magni sequi perspiciatis, accusantium consequuntur nulla?
-          Nulla, obcaecati!
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vero
-          quasi accusantium unde dolores? Dolore ipsa quia quasi eos maxime
-        </p>
-        <p>
-          <span>Join and entrust your financial development to us.</span>
-        </p>
-        <button className="btn btn-1">Get Started</button>
+    <div className="section-3">
+      <h2>Supported BlockChains</h2>
+      <div className="blockchain-container">
+        <div className="blockchain">
+          <img src={ethereum} alt="" />
+          <p>Ethereum</p>
+        </div>
+        <div className="blockchain">
+          <img src={polygon} alt="" />
+          <p>Polygon</p>
+        </div>
+        <div className="blockchain">
+          <img src={tron} alt="" />
+          <p>Tron</p>
+        </div>
+        <div className="blockchain">
+          <img src={solana} alt="" />
+          <p>Solana</p>
+        </div>
+        <div className="blockchain">
+          <img src={binance} alt="" />
+          <p>Binance Smart Chain</p>
+        </div>
       </div>
     </div>
   );

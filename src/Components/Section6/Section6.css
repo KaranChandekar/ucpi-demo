@@ -1,0 +1,73 @@
+.section-6 {
+  height: 80vh;
+  position: relative;
+}
+
+.section-6 .text-container {
+  width: 55rem;
+  position: absolute;
+  top: 10rem;
+  left: 20rem;
+}
+
+.section-6 h2 {
+  font-size: 4rem;
+  color: #8a46ff;
+  padding-bottom: 2rem;
+}
+
+.section-6 h1 {
+  font-size: 5rem;
+  padding-bottom: 2rem;
+}
+
+.section-6 p {
+  font-size: 2rem;
+  color: #5e6278;
+  padding-bottom: 5rem;
+}
+
+.section-3 span {
+  color: #20c997;
+}
+
+.section-6 .btn-container {
+  display: flex;
+}
+
+.section-6 .btn {
+  font-size: 1.8rem;
+  padding: 1.8rem 2rem;
+  border: 2px solid #8a46ff;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.section-6 .btn-1 {
+  background-color: #8a46ff;
+  color: #ffffff;
+  margin-right: 3rem;
+}
+
+.section-6 .btn-1:hover {
+  background-color: #6610f2;
+  border-color: #6610f2;
+}
+
+.section-6 .btn-2 {
+  background-color: #ffffff;
+  color: #8a46ff;
+}
+
+.section-6 .btn-2:hover {
+  background-color: #8a46ff;
+  color: #ffffff;
+}
+
+.section-6 .bg-img {
+  width: 55rem;
+  position: absolute;
+  top: 0;
+  right: 15rem;
+}

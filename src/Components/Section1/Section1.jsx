@@ -1,5 +1,4 @@
 import React from "react";
-import bg1 from "../images/bg1.jpg";
 import "./Section1.css";
 import Lottie from "react-lottie";
 import cryptoCurrency from "../../Lotties/cryptocurrency-lottie-animation.json";

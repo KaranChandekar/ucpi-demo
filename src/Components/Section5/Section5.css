@@ -1,73 +1,65 @@
 .section-5 {
-  height: 80vh;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15rem;
 }
 
 .section-5 .text-container {
-  width: 55rem;
-  position: absolute;
-  top: 10rem;
-  left: 20rem;
+  width: 50rem;
+  text-align: center;
+  margin-bottom: 5rem;
 }
 
-.section-5 h2 {
+.section-5 .text-container h2 {
   font-size: 4rem;
+  font-weight: 400;
   color: #8a46ff;
-  padding-bottom: 2rem;
 }
 
-.section-5 h1 {
+.section-5 .text-container h1 {
   font-size: 5rem;
-  padding-bottom: 2rem;
+  font-weight: 500;
 }
 
-.section-5 p {
+.section-5 .text-container p {
   font-size: 2rem;
+  padding: 1rem 0;
   color: #5e6278;
-  padding-bottom: 5rem;
 }
 
-.section-3 span {
-  color: #20c997;
-}
-
-.section-5 .btn-container {
+.cards-container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.section-5 .btn {
-  font-size: 1.8rem;
-  padding: 1.8rem 2rem;
-  border: 2px solid #8a46ff;
-  border-radius: 1rem;
-  cursor: pointer;
-  transition: all 0.2s;
+.cards-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
-.section-5 .btn-1 {
-  background-color: #8a46ff;
-  color: #ffffff;
-  margin-right: 3rem;
+.card {
+  width: 35rem;
+  text-align: center;
+  margin: 4rem;
+  border-radius: 0.8rem;
+  box-shadow: 0px 0px 20px 0px rgba(76, 87, 125, 0.25);
 }
 
-.section-5 .btn-1:hover {
-  background-color: #6610f2;
-  border-color: #6610f2;
+.card-heading {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #3f4254;
+  color: #5e6278;
+  padding: 3rem 2rem;
 }
 
-.section-5 .btn-2 {
-  background-color: #ffffff;
-  color: #8a46ff;
-}
-
-.section-5 .btn-2:hover {
-  background-color: #8a46ff;
-  color: #ffffff;
-}
-
-.section-5 .bg-img {
-  width: 60rem;
-  position: absolute;
-  top: 0;
-  right: 15rem;
+.card-para {
+  font-size: 2rem;
+  color: #7E8299;
+  padding: 0 4rem 3rem;
+  text-align: justify;
 }
