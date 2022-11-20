@@ -1,9 +1,10 @@
-.header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2.3rem 15rem;
   margin-top: 2rem;
+  background-color: #ffffff;
 }
 
 .logo-heading {
@@ -26,7 +27,7 @@
 }
 
 .list-item:hover {
-  color: #32325D;
+  color: #32325d;
 }
 
 .nav-btn {
@@ -45,8 +46,55 @@
   background-color: #6610f2;
 }
 
+#menu-bar {
+  font-size: 3rem;
+  cursor: pointer;
+  color: #666;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1.5rem;
+  display: none;
+}
+
 @media (max-width: 1300px) {
-  .header {
+  header {
     padding: 2.3rem 5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  header {
+    position: fixed;
+    top: -2rem;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+
+  #menu-bar {
+    display: initial;
+  }
+
+  header .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    display: none;
+    background-color: #fff;
+    transition: display 0.3s ease-out;
+  }
+
+  header .nav.active {
+    display: initial;
+  }
+
+  header .nav .list-item {
+    padding: 1.5rem 0;
+    margin: 1.5rem 5rem;
+    display: block;
+  }
+
+  header .nav-btn {
+    margin-left: 5rem;
   }
 }

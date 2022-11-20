@@ -1,67 +1,87 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
-import { ScrollTo } from "react-scroll-to/dist";
+import { Link } from "react-scroll";
 
 export const Header = () => {
-  return (
-    <div className="header">
-      <div className="logo">
-        <p className="logo-heading">UCPI</p>
-      </div>
-      <div className="nav">
-        <ScrollTo>
-          {({ scroll }) => (
-            <a
-              className="list-item"
-              onClick={() => scroll({ y: 0, smooth: true })}
-            >
-              Home
-            </a>
-          )}
-        </ScrollTo>
-        <ScrollTo>
-          {({ scroll }) => (
-            <a
-              className="list-item"
-              onClick={() => scroll({ y: 1000, smooth: true })}
-            >
-              Features
-            </a>
-          )}
-        </ScrollTo>
-        <ScrollTo>
-          {({ scroll }) => (
-            <a
-              className="list-item"
-              onClick={() => scroll({ y: 1700, smooth: true })}
-            >
-              Benefits
-            </a>
-          )}
-        </ScrollTo>
-        <ScrollTo>
-          {({ scroll }) => (
-            <a
-              className="list-item"
-              onClick={() => scroll({ y: 3500, smooth: true })}
-            >
-              Know More
-            </a>
-          )}
-        </ScrollTo>
-        <ScrollTo>
-          {({ scroll }) => (
-            <a
-              className="list-item"
-              onClick={() => scroll({ x: 20, y: 500, smooth: true })}
-            >
-              Portfolio
-            </a>
-          )}
-        </ScrollTo>
+  const [show, setShow] = useState(false);
 
-        <button className="nav-btn">Get in touch</button>
-      </div>
-    </div>
+  const showAndHideHandler = () => {
+    setShow(!show);
+  };
+
+  return (
+    <>
+      <header className="header">
+        <div className="logo">
+          <p className="logo-heading">UCPI</p>
+        </div>
+
+        <div
+          id="menu-bar"
+          className="fas fa-bars"
+          onClick={showAndHideHandler}
+        ></div>
+
+        <nav className={show ? "nav active" : "nav"} id="nav">
+          <Link
+            className="list-item"
+            activeClass="active"
+            to="section-2"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Home
+          </Link>
+          <Link
+            className="list-item"
+            activeClass="active"
+            to="section-3"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Features
+          </Link>
+          <Link
+            className="list-item"
+            activeClass="active"
+            to="section-4"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Benefits
+          </Link>
+          <Link
+            className="list-item"
+            activeClass="active"
+            to="section-5"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Know More
+          </Link>
+          <Link
+            className="list-item"
+            activeClass="active"
+            to="section-5"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            Portfolio
+          </Link>
+
+          <button className="nav-btn">Get in touch</button>
+        </nav>
+      </header>
+    </>
   );
 };
