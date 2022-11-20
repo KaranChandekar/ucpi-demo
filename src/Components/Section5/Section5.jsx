@@ -3,7 +3,7 @@ import "./Section5.css";
 
 export const Section5 = () => {
   return (
-    <div className="section-5">
+    <section className="section-5">
       <div className="text-container">
         <h2>Our Services</h2>
         <h1>How can we help your business?</h1>
@@ -79,6 +79,6 @@ export const Section5 = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

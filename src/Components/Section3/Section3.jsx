@@ -9,7 +9,7 @@ import "./Section3.css";
 
 export const Section3 = () => {
   return (
-    <div className="section-3">
+    <section className="section-3">
       <h2>Supported BlockChains</h2>
       <div className="blockchain-container">
         <div className="blockchain">
@@ -33,6 +33,6 @@ export const Section3 = () => {
           <p>Binance Smart Chain</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

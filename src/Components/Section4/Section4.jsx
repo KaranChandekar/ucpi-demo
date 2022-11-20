@@ -4,7 +4,7 @@ import "./Section4.css";
 
 export const Section4 = () => {
   return (
-    <div className="section-4" id="section-4">
+    <section className="section-4" id="section-4">
       <img className="bg-img" src={bg2} alt="background img" />
       <div className="text-container">
         <h2>About Us</h2>
@@ -23,6 +23,6 @@ export const Section4 = () => {
         </p>
         <button className="btn btn-1">Get Started</button>
       </div>
-    </div>
+    </section>
   );
 };

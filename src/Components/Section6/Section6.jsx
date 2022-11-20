@@ -4,7 +4,7 @@ import "./Section6.css";
 
 export const Section6 = () => {
   return (
-    <div className="section-6">
+    <section className="section-6">
       <img className="bg-img" src={bg2} alt="background img" />
       <div className="text-container">
         <h2>UPI for crypto Payments.</h2>
@@ -17,6 +17,6 @@ export const Section6 = () => {
           <button className="btn btn-2">TALK TO PRANJAL</button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

@@ -10,7 +10,7 @@ export const Section1 = () => {
     animationData: cryptoCurrency,
   };
   return (
-    <div className="section-1">
+    <section className="section-1">
       <div className="text-container">
         <h1 className="heading">
           Universal <span>Crypto</span> Protocol Interface
@@ -26,6 +26,6 @@ export const Section1 = () => {
       <div className="bg-img">
         <Lottie options={defaultOptions} />
       </div>
-    </div>
+    </section>
   );
 };
