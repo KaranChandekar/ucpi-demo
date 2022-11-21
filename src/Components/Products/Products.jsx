@@ -14,15 +14,10 @@ const Products = () => {
           <h1 className="product-heading">DAuth</h1>
           <div className="para-wrapper">
             <p className="product-para">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Doloribus, commodi. Porro debitis possimus laudantium veniam aut a
-              earum modi harum sapiente neque consectetur ratione, commodi, in
-              omnis minima impedit unde?
+              A decentralized protocol to Authenticate WEB2 Ids on-chain.
             </p>
             <p className="product-para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              voluptatibus velit deleniti expedita ratione iure optio, quo
-              reprehenderit veniam ab!
+              No single point of failure - be secured yet free of keys baggage and frictionless.
             </p>
           </div>
           <a

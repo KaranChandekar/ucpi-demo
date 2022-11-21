@@ -17,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   margin: 10rem 0;
+  width: 100%;
 }
 
 .product-description {
