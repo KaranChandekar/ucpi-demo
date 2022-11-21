@@ -20,7 +20,7 @@ header {
 
 .list-item {
   font-size: 1.7rem;
-  padding: 1rem 2.5rem;
+  padding: 1rem 2rem;
   color: #5e6278;
   cursor: pointer;
   transition: all 0.3s;

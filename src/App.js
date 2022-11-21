@@ -5,6 +5,7 @@ import { Features } from "./Components/Features/Features";
 import { SupportedBlockChains } from "./Components/SupportedBlockChains/SupportedBlockChains";
 import { AboutUs } from "./Components/AboutUs/AboutUs";
 import { Benefits } from "./Components/Benefits/Benefits";
+import Products from "./Components/Products/Products";
 import { KnowMore } from "./Components/KnowMore/KnowMore";
 import Footer from "./Components/Footer/Footer";
 
@@ -19,6 +20,7 @@ function App() {
       <SupportedBlockChains />
       <AboutUs />
       <Benefits />
+      <Products />
       <KnowMore />
       <Footer />
     </>
