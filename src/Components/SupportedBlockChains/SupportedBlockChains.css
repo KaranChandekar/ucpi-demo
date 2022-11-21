@@ -85,6 +85,8 @@
 
 @media (max-width: 500px) {
   .supported-blockchains-section {
+    min-height: 100vh;
+    justify-content: center;
     padding: 3rem 1rem;
   }
   .blockchain-container {

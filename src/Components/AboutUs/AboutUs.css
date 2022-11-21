@@ -79,8 +79,7 @@
 
 @media (max-width: 500px) {
   .about-us-section {
-    height: 100vh;
-    padding: 3rem 0;
+    padding: 3rem 2rem;
   }
   .about-us-section .text-container {
     width: 80%;

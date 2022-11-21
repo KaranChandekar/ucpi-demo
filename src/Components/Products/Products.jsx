@@ -25,7 +25,11 @@ const Products = () => {
               reprehenderit veniam ab!
             </p>
           </div>
-          <a className="product-link" href="https://authxui.vercel.app/" target="_blank">
+          <a
+            className="product-link"
+            href="https://authxui.vercel.app/"
+            target="_blank"
+          >
             Visit
           </a>
         </div>

@@ -80,7 +80,6 @@
 @media (max-width: 1000px) {
   .know-more-section {
     flex-direction: column-reverse;
-    height: 110vh;
     text-align: center;
   }
 
@@ -91,8 +90,7 @@
 
 @media (max-width: 500px) {
   .know-more-section {
-    height: 90vh;
-    padding: 5rem 1rem;
+    padding: 5rem 2rem;
   }
 
   .know-more-section .text-container {

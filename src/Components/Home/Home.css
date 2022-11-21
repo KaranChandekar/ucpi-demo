@@ -76,13 +76,16 @@
 @media (max-width: 1000px) {
   .home-section {
     flex-direction: column-reverse;
-    height: 130vh;
     padding-top: 10rem;
     text-align: center;
   }
 
   .home-section .text-container {
     width: 80%;
+  }
+
+  .home-section .btn-container {
+    justify-content: center;
   }
 }
 
@@ -107,8 +110,7 @@
 
 @media (max-width: 500px) {
   .home-section {
-    height: 95vh;
-    padding: 1rem;
+    padding: 2rem;
     padding-top: 10rem;
   }
 
