@@ -2,8 +2,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.3rem 15rem;
-  margin-top: 2rem;
+  padding: 2.3rem 10rem;
   background-color: #ffffff;
 }
 
@@ -20,7 +19,8 @@ header {
 
 .list-item {
   font-size: 1.7rem;
-  padding: 1rem 2rem;
+  font-weight: 500;
+  padding: 1rem 1.5rem;
   color: #5e6278;
   cursor: pointer;
   transition: all 0.3s;
@@ -64,7 +64,7 @@ header {
 @media (max-width: 1000px) {
   header {
     position: fixed;
-    top: -2rem;
+    top: 0;
     left: 0;
     right: 0;
     z-index: 1000;

@@ -5,6 +5,7 @@
   justify-content: center;
   padding: 0 15rem;
   background-color: #6783ff08;
+  min-height: 100vh;
 }
 
 .features-section h1 {

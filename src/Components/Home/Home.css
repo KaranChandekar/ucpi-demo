@@ -1,9 +1,9 @@
 .home-section {
-  height: 80vh;
   display: flex;
   padding: 5rem 15rem;
   align-items: center;
   justify-content: space-between;
+  min-height: 80vh;
 }
 
 .home-section .text-container {
@@ -60,7 +60,7 @@
 }
 
 .home-section .bg-img {
-  width: 60rem;
+  width: 50rem;
 }
 
 @media (max-width: 1300px) {

@@ -1,5 +1,5 @@
 .know-more-section {
-  height: 80vh;
+  min-height: 100vh;
   position: relative;
   display: flex;
   padding: 5rem 15rem;
