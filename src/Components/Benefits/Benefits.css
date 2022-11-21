@@ -67,7 +67,7 @@
 @media (max-width: 800px) {
   .card {
     height: auto;
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
   }
 }
 
@@ -78,5 +78,9 @@
 
   .benefits-section .text-container {
     width: 90%;
+  }
+
+  .card-para {
+    padding: 1.5rem;
   }
 }

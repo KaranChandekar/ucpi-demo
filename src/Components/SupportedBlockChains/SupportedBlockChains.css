@@ -78,6 +78,10 @@
     margin: 0;
   }
 
+  .supported-blockchains-section .headings h1 {
+    width: 100%;
+  }
+
   .blockchain-container {
     margin-right: 0;
   }
@@ -89,6 +93,7 @@
     justify-content: center;
     padding: 3rem 1rem;
   }
+
   .blockchain-container {
     width: 100%;
   }

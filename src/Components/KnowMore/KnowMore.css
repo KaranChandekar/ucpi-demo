@@ -95,9 +95,13 @@
 
   .know-more-section .text-container {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .know-more-section .btn-container {
+    width: 90%;
     flex-direction: column;
   }
 
