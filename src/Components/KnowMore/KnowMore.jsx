@@ -4,7 +4,7 @@ import "./KnowMore.css";
 
 export const KnowMore = () => {
   return (
-    <section className="section-6">
+    <section className="know-more-section" id="know-more">
       <img className="bg-img" src={bg2} alt="background img" />
       <div className="text-container">
         <h2>UPI for crypto Payments.</h2>

@@ -3,7 +3,7 @@ import "./Benefits.css";
 
 export const Benefits = () => {
   return (
-    <section className="section-5">
+    <section className="benefits-section" id="benefits">
       <div className="text-container">
         <h2>UCPI Benefits</h2>
         <h1>How can we help your business?</h1>

@@ -9,7 +9,7 @@ import "./SupportedBlockChains.css";
 
 export const SupportedBlockChains = () => {
   return (
-    <section className="section-3">
+    <section className="supported-blockchains-section">
       <div className="headings">
         <h2>Your_id@ucpi or Your_id@brand_name</h2>
         <h1>Supported BlockChains</h1>

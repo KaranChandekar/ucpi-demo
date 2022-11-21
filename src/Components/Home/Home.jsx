@@ -10,7 +10,7 @@ export const Home = () => {
     animationData: cryptoCurrency,
   };
   return (
-    <section className="section-1">
+    <section className="home-section" id="home">
       <div className="text-container">
         <h1 className="heading">
           Universal <span>Crypto</span> Protocol Interface

@@ -1,4 +1,4 @@
-.footer {
+footer {
   padding: 4rem 15rem;
   background-color: #6783ff08;
 }
@@ -75,7 +75,7 @@
 }
 
 @media (max-width: 1300px) {
-  .footer {
+  footer {
     padding: 4rem 5rem;
   }
 }
@@ -91,7 +91,7 @@
 }
 
 @media (max-width: 500px) {
-  .footer {
+  footer {
     padding: 3rem 2rem;
   }
 

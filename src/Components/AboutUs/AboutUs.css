@@ -1,4 +1,4 @@
-.section-4 {
+.about-us-section {
   height: 85vh;
   position: relative;
   display: flex;
@@ -7,41 +7,41 @@
   justify-content: space-between;
 }
 
-.section-4 .bg-img {
+.about-us-section .bg-img {
   width: 55rem;
 }
 
-.section-4 .text-container {
+.about-us-section .text-container {
   width: 55rem;
 }
 
-.section-4 h2 {
+.about-us-section h2 {
   font-size: 3rem;
   font-weight: 600;
   color: #8a46ff;
   margin-bottom: 2rem;
 }
 
-.section-4 h1 {
+.about-us-section h1 {
   font-size: 5rem;
   padding-bottom: 1rem;
 }
 
-.section-4 p {
+.about-us-section p {
   font-size: 2rem;
   color: #32325d;
   padding-bottom: 1rem;
 }
 
-.section-4 span {
+.about-us-section span {
   color: #20c997;
 }
 
-.section-4 .btn-container {
+.about-us-section .btn-container {
   display: flex;
 }
 
-.section-4 .btn {
+.about-us-section .btn {
   font-size: 1.8rem;
   background-color: #8a46ff;
   color: #ffffff;
@@ -53,22 +53,22 @@
   transition: all 0.2s;
 }
 
-.section-4 .btn:hover {
+.about-us-section .btn:hover {
   background-color: #6610f2;
 }
 
 @media (max-width: 1300px) {
-  .section-4 .bg-img {
+  .about-us-section .bg-img {
     left: 5rem;
   }
 
-  .section-4 .text-container {
+  .about-us-section .text-container {
     right: 5rem;
   }
 }
 
 @media (max-width: 1000px) {
-  .section-4 {
+  .about-us-section {
     height: 120vh;
     flex-direction: column-reverse;
     align-items: center;
@@ -77,15 +77,15 @@
 }
 
 @media (max-width: 500px) {
-  .section-4 {
+  .about-us-section {
     height: 100vh;
     padding: 3rem 0;
   }
-  .section-4 .text-container {
+  .about-us-section .text-container {
     width: 80%;
   }
 
-  .section-4 .bg-img {
+  .about-us-section .bg-img {
     width: 100%;
   }
 }

@@ -1,4 +1,4 @@
-.section-1 {
+.home-section {
   height: 80vh;
   display: flex;
   padding: 5rem 15rem;
@@ -6,26 +6,26 @@
   justify-content: space-between;
 }
 
-.section-1 .text-container {
+.home-section .text-container {
   width: 50%;
 }
 
-.section-1 .heading {
+.home-section .heading {
   font-size: 7rem;
   line-height: 10rem;
 }
 
-.section-1 span {
+.home-section span {
   color: #8a46ff;
 }
 
-.section-1 .paragraph {
+.home-section .paragraph {
   font-size: 2.2rem;
   color: #32325d;
   padding: 2rem 0 6rem 0;
 }
 
-.section-1 .btn-container {
+.home-section .btn-container {
   display: flex;
 }
 
@@ -59,69 +59,69 @@
   color: #ffffff;
 }
 
-.section-1 .bg-img {
+.home-section .bg-img {
   width: 60rem;
 }
 
 @media (max-width: 1300px) {
-  .section-1 {
+  .home-section {
     padding: 5rem;
   }
 
-  .section-1 .bg-img {
+  .home-section .bg-img {
     width: 50rem;
   }
 }
 
 @media (max-width: 1000px) {
-  .section-1 {
+  .home-section {
     flex-direction: column-reverse;
     height: 130vh;
     padding-top: 10rem;
     text-align: center;
   }
 
-  .section-1 .text-container {
+  .home-section .text-container {
     width: 80%;
   }
 }
 
 @media (max-width: 700px) {
-  .section-1 {
+  .home-section {
     height: 110vh;
   }
 
-  .section-1 .text-container {
+  .home-section .text-container {
     width: 100%;
   }
 
-  .section-1 .heading {
+  .home-section .heading {
     font-size: 6rem;
     line-height: 8rem;
   }
 
-  .section-1 .bg-img {
+  .home-section .bg-img {
     width: 40rem;
   }
 }
 
 @media (max-width: 500px) {
-  .section-1 {
+  .home-section {
     height: 95vh;
     padding: 1rem;
     padding-top: 10rem;
   }
 
-  .section-1 .heading {
+  .home-section .heading {
     font-size: 5rem;
     line-height: 6rem;
   }
 
-  .section-1 .paragraph {
+  .home-section .paragraph {
     padding: 2rem 0 3rem 0;
   }
 
-  .section-1 .btn-container {
+  .home-section .btn-container {
     width: 100%;
     flex-direction: column;
     margin-bottom: 2rem;

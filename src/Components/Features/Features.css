@@ -1,4 +1,4 @@
-.section-2 {
+.features-section {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -7,7 +7,7 @@
   background-color: #6783ff08;
 }
 
-.section-2 h1 {
+.features-section h1 {
   font-size: 5rem;
   width: 50rem;
   margin-top: 4rem;
@@ -40,7 +40,7 @@
 }
 
 @media (max-width: 1300px) {
-  .section-2 {
+  .features-section {
     padding: 0 5rem;
   }
 
@@ -50,7 +50,7 @@
 }
 
 @media (max-width: 1000px) {
-  .section-2 {
+  .features-section {
     flex-direction: column;
   }
 
@@ -65,10 +65,10 @@
 }
 
 @media (max-width: 500px) {
-  .section-2 {
+  .features-section {
     padding: 0;
   }
-  .section-2 h1 {
+  .features-section h1 {
     width: 100%;
     font-size: 4rem;
     padding: 0 1rem;
