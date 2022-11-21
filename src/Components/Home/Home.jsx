@@ -1,14 +1,9 @@
 import React from "react";
 import "./Home.css";
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 import cryptoCurrency from "../../Lotties/cryptocurrency-lottie-animation.json";
 
 export const Home = () => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: cryptoCurrency,
-  };
   return (
     <section className="home-section" id="home">
       <div className="text-container">
@@ -24,7 +19,7 @@ export const Home = () => {
         </div>
       </div>
       <div className="bg-img">
-        <Lottie options={defaultOptions} />
+        <Lottie animationData={cryptoCurrency} loop={true} />
       </div>
     </section>
   );
