@@ -1,9 +1,9 @@
 import React from "react";
-import "./Section1.css";
+import "./Home.css";
 import Lottie from "react-lottie";
 import cryptoCurrency from "../../Lotties/cryptocurrency-lottie-animation.json";
 
-export const Section1 = () => {
+export const Home = () => {
   const defaultOptions = {
     loop: true,
     autoplay: true,

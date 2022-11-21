@@ -1,11 +1,11 @@
 import React from "react";
-import "./Section2.css";
+import "./Features.css";
 import upi1 from "../images/UPI/upi1.svg";
 import upi2 from "../images/UPI/upi2.svg";
 import upi3 from "../images/UPI/upi3.svg";
 import upi4 from "../images/UPI/upi4.svg";
 
-export const Section2 = () => {
+export const Features = () => {
   return (
     <>
       <section className="section-2">

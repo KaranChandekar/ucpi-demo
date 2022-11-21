@@ -1,7 +1,7 @@
 import React from "react";
-import "./Section5.css";
+import "./Benefits.css";
 
-export const Section5 = () => {
+export const Benefits = () => {
   return (
     <section className="section-5">
       <div className="text-container">

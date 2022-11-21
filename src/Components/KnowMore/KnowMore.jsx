@@ -1,8 +1,8 @@
 import React from "react";
 import bg2 from "../images/bg2.jpg";
-import "./Section6.css";
+import "./KnowMore.css";
 
-export const Section6 = () => {
+export const KnowMore = () => {
   return (
     <section className="section-6">
       <img className="bg-img" src={bg2} alt="background img" />

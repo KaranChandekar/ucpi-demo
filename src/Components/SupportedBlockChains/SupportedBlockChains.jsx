@@ -5,9 +5,9 @@ import tron from "../images/Blockchains/tron.png";
 import solana from "../images/Blockchains/solana.png";
 import binance from "../images/Blockchains/binance.png";
 
-import "./Section3.css";
+import "./SupportedBlockChains.css";
 
-export const Section3 = () => {
+export const SupportedBlockChains = () => {
   return (
     <section className="section-3">
       <div className="headings">

@@ -1,11 +1,11 @@
 import React from "react";
 import { Header } from "./Components/Header/Header";
-import { Section1 } from "./Components/Section1/Section1";
-import { Section2 } from "./Components/Section2/Section2";
-import { Section3 } from "./Components/Section3/Section3";
-import { Section4 } from "./Components/Section4/Section4";
-import { Section5 } from "./Components/Section5/Section5";
-import { Section6 } from "./Components/Section6/Section6";
+import { Home } from "./Components/Home/Home";
+import { Features } from "./Components/Features/Features";
+import { SupportedBlockChains } from "./Components/SupportedBlockChains/SupportedBlockChains";
+import { AboutUs } from "./Components/AboutUs/AboutUs";
+import { Benefits } from "./Components/Benefits/Benefits";
+import { KnowMore } from "./Components/KnowMore/KnowMore";
 import Footer from "./Components/Footer/Footer";
 
 import "./App.css";
@@ -14,12 +14,12 @@ function App() {
   return (
     <>
       <Header />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
+      <Home />
+      <Features />
+      <SupportedBlockChains />
+      <AboutUs />
+      <Benefits />
+      <KnowMore />
       <Footer />
     </>
   );
