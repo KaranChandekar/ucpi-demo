@@ -48,6 +48,11 @@ footer {
   width: 15rem;
   text-decoration: none;
   text-align: center;
+  transition: all 0.2s;
+}
+
+.form a:hover {
+  background-color: #6610f2;
 }
 
 .footer-bottom {
