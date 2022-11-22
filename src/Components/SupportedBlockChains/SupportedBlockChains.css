@@ -1,14 +1,23 @@
 .supported-blockchains-section {
+  padding: 3rem 15rem;
+  background-color: #ff4e17;
+}
+
+.supported-blockchains-section .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem 15rem;
+  width: 100%;
+  background-color: #000; /* undo */
+  border-radius: 5rem;
 }
 
 .supported-blockchains-section h2 {
   font-size: 2.2rem;
   font-weight: 500;
-  color: #8a46ff;
+  /* color: #8a46ff; */
+  color: #ff4e17;
+  color: #e5e5e5;
   margin-bottom: 1rem;
   letter-spacing: 0.1rem;
 }
@@ -22,6 +31,7 @@
 .supported-blockchains-section .headings h1 {
   font-size: 6rem;
   width: 30rem;
+  color: #fff; /* undo */
 }
 
 .blockchain-container {
@@ -44,7 +54,8 @@
 .supported-blockchains-section img {
   width: 6rem;
   padding: 1rem;
-  background-color: rgb(243, 242, 250);
+  /* background-color: rgb(243, 242, 250); */
+  background-color: #5e627857;
   border-radius: 1rem;
   margin-bottom: 2rem;
   cursor: pointer;
@@ -53,7 +64,8 @@
 .supported-blockchains-section p {
   font-size: 2rem;
   cursor: pointer;
-  color: #32325d;
+  /* color: #32325d; */
+  color: #fff;
   transition: all 0.2s;
 }
 
