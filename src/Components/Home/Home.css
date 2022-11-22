@@ -3,7 +3,8 @@
   padding: 5rem 15rem;
   align-items: center;
   justify-content: space-between;
-  min-height: 80vh;
+  min-height: 90vh;
+  background-color: #000; /* undo */
 }
 
 .home-section .text-container {
@@ -11,17 +12,20 @@
 }
 
 .home-section .heading {
-  font-size: 7rem;
+  font-size: 7.5rem;
   line-height: 10rem;
+  color: #fff;
 }
 
 .home-section span {
-  color: #8a46ff;
+  /* color: #8a46ff; */
+  color: #ff4e17;
 }
 
 .home-section .paragraph {
   font-size: 2.2rem;
-  color: #32325d;
+  /* color: #32325d; */
+  color: #fff;
   padding: 2rem 0 6rem 0;
 }
 
@@ -31,32 +35,31 @@
 
 .btn {
   font-size: 1.8rem;
-  padding: 1.8rem 5rem;
-  border: 2px solid #8a46ff;
-  border-radius: 1rem;
+  /* border: 2px solid #8a46ff; */
+  border: 2px solid #ff4e17;
+  padding: 1.6rem 4rem;
+  border-radius: .5rem;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .btn-1 {
-  background-color: #8a46ff;
+  /* background-color: #8a46ff; */
+  background-color: #ff4e17;
   color: #ffffff;
   margin-right: 3rem;
 }
 
-.btn-1:hover {
-  background-color: #6610f2;
-  border-color: #6610f2;
-}
-
 .btn-2 {
-  background-color: #ffffff;
-  color: #8a46ff;
+  /* background-color: #ffffff; */
+  background-color: #000;
+  /* color: #8a46ff; */
+  color: #ff4e17;
 }
 
 .btn-2:hover {
-  background-color: #8a46ff;
-  color: #ffffff;
+  background-color: #ff4e17;
+  color: #fff;
 }
 
 .home-section .bg-img {
