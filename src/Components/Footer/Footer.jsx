@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-top">
-        <p className="logo-heading">UCPI</p>
+        <p className="footer-logo">UCPI</p>
         <div className="subscribe-container">
           <h1>Join The Waitlist</h1>
           <p>We will keep you updated.</p>
@@ -17,11 +17,11 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <div className="links">
-          <p>Join Us</p>
+          <p>Join Us :</p>
           <a href="">Twitter</a>
           <a href="">Discord</a>
         </div>
-        <p>Copyright 2022 @ucpi.</p>
+        <p>© 2022 @ucpi. All right reserved.</p>
       </div>
     </footer>
   );

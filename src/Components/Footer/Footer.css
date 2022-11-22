@@ -1,22 +1,31 @@
 footer {
   padding: 4rem 15rem;
-  background-color: #6783ff08;
+  background-color: #ff4e17;
 }
 
 .footer-top {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #e5e5e5;
   padding: 5rem 0;
+}
+
+.footer-logo {
+  font-size: 5rem;
+  font-weight: 400;
+  color: #fff;
+  cursor: pointer;
 }
 
 .subscribe-container h1 {
   font-size: 3rem;
+  color: #fff;
+  margin-bottom: 1rem;
 }
 
 .subscribe-container p {
   font-size: 2rem;
-  color: #8a46ff;
+  color: #fff;
 }
 
 .form {
@@ -27,11 +36,16 @@ footer {
 .form input {
   padding: 2rem 0 2rem 2rem;
   border-style: none;
-  border: 1px solid #8a46ff;
   font-size: 1.5rem;
   border-radius: 0.5rem;
   width: 30rem;
   margin-right: 2rem;
+  background-color: hsla(0, 0%, 100%, 0.15);
+  color: #fff;
+}
+
+.form input::placeholder {
+  color: #fff;
 }
 
 .form input:focus {
@@ -41,18 +55,14 @@ footer {
 .form a {
   padding: 2rem;
   border-style: none;
-  background-color: #8a46ff;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   font-size: 1.5rem;
   border-radius: 0.5rem;
   width: 15rem;
   text-decoration: none;
   text-align: center;
   transition: all 0.2s;
-}
-
-.form a:hover {
-  background-color: #6610f2;
 }
 
 .footer-bottom {
@@ -71,12 +81,18 @@ footer {
 
 .footer-bottom .links p {
   margin-right: 3rem;
+  color: #fff;
 }
 
 .footer-bottom .links a {
+  color: #fff;
   text-decoration: none;
   font-size: 1.5rem;
   margin: 0 2rem;
+}
+
+.footer-bottom p {
+  color: #fff;
 }
 
 @media (max-width: 1300px) {
