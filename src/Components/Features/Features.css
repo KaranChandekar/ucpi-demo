@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: center;
   padding: 0 15rem;
-  background-color: #6783ff08;
+  /* background-color: #6783ff08; */
+  background-color: #ff4e17;
   min-height: 100vh;
 }
 
@@ -12,6 +13,7 @@
   font-size: 5rem;
   width: 50rem;
   margin-top: 4rem;
+  color: #fff; /* undo */
 }
 
 .feature-description-container {
@@ -37,7 +39,8 @@
 
 .feature-description p {
   font-size: 2.2rem;
-  color: #32325d;
+  /* color: #32325d; */
+  color: #fff;
 }
 
 @media (max-width: 1300px) {
