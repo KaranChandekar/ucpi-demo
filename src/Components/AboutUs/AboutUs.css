@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
+  background-color: #ff4e17; /* undo */
 }
 
 .about-us-section .bg-img {
@@ -20,22 +21,27 @@
 .about-us-section h2 {
   font-size: 3rem;
   font-weight: 500;
-  color: #8a46ff;
+  /* color: #8a46ff; */
+  color: #e5e5e5;
 }
 
 .about-us-section h1 {
-  font-size: 6rem;
+  font-size: 6.5rem;
   padding-bottom: 1rem;
+  color: #fff; /* undo */
 }
 
 .about-us-section p {
   font-size: 2rem;
-  color: #32325d;
+  /* color: #32325d; */
+  color: #fff;
   padding-bottom: 1rem;
+  line-height: 2.5rem;
 }
 
 .about-us-section span {
-  color: #20c997;
+  /* color: #20c997; */
+  /* color: #000; */
 }
 
 .about-us-section .btn-container {
@@ -43,19 +49,16 @@
 }
 
 .about-us-section .btn {
-  font-size: 1.8rem;
-  background-color: #8a46ff;
-  color: #ffffff;
-  padding: 1.8rem 5rem;
+  font-size: 2rem;
+  /* background-color: #8a46ff; */
+  background-color: #fff;
+  color: #000;
   margin-top: 3rem;
   border: none;
-  border-radius: 1rem;
+  padding: 1.6rem 4rem;
+  border-radius: .5rem;
   cursor: pointer;
   transition: all 0.2s;
-}
-
-.about-us-section .btn:hover {
-  background-color: #6610f2;
 }
 
 @media (max-width: 1300px) {
