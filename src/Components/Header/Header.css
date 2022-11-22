@@ -3,14 +3,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 2.3rem 10rem;
-  /* background-color: #ffffff; */
   background-color: #000;
 }
 
 .logo-heading {
   font-size: 5rem;
   font-weight: 400;
-  /* color: #8a46ff; */
   color: #ff4e17;
   cursor: pointer;
 }
@@ -23,33 +21,27 @@ header {
   font-size: 1.7rem;
   font-weight: 500;
   padding: 1rem 1.5rem;
-  /* color: #5e6278; */
   color: #fff;
   cursor: pointer;
   transition: all 0.3s;
 }
 
-.list-item:hover {
-  /* color: #32325d; */
-}
-
 .nav-btn {
   font-size: 1.8rem;
-  /* background-color: #8a46ff; */
   background-color: #ff4e17;
   color: #ffffff;
   border: none;
   padding: 1.6rem 4rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   margin-left: 2rem;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 #menu-bar {
-  font-size: 3rem;
+  font-size: 3.5rem;
   cursor: pointer;
-  color: #666;
+  color: #fff;
   border-radius: 0.3rem;
   padding: 0.5rem 1.5rem;
   display: none;
@@ -82,7 +74,7 @@ header {
     left: 0;
     right: 0;
     display: none;
-    background-color: #fff;
+    background-color: #000;
     transition: display 0.3s ease-out;
   }
 
@@ -91,23 +83,31 @@ header {
   }
 
   header .nav .list-item {
+    font-size: 3rem;
     padding: 1.5rem 0;
-    margin: 1.5rem;
+    margin: 1rem 5rem;
     display: block;
   }
 
   header .nav-btn {
-    margin-left: 1.5rem;
-    margin-bottom: 2rem;
+    margin: 2rem 5rem;
   }
 }
 
 @media (max-width: 500px) {
   header {
-    padding: 1rem 1rem;
+    padding: 2.5rem;
   }
 
   .logo-heading {
     font-size: 4rem;
+  }
+
+  header .nav .list-item {
+    margin: 1rem 3rem;
+  }
+
+  header .nav-btn {
+    margin: 2rem 3rem;
   }
 }

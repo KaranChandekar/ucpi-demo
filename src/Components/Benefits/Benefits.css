@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   padding: 0 15rem;
-  background-color: #000; /* undo */
+  background-color: #000;
 }
 
 .benefits-section .text-container {
@@ -16,7 +16,6 @@
 .benefits-section .text-container h2 {
   font-size: 3rem;
   font-weight: 500;
-  /* color: #8a46ff; */
   color: #e5e5e5;
   margin-top: 5rem;
 }
@@ -40,8 +39,7 @@
   text-align: center;
   margin: 2rem;
   border-radius: 0.8rem;
-  /* box-shadow: 0px 0px 5px 0px rgba(76, 87, 125, 0.25); */
-  border: 2px solid #4d4d4d; /* undo */
+  border: 2px solid #4d4d4d; 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,14 +49,12 @@
 .card-heading {
   font-size: 3rem;
   font-weight: 500;
-  /* color: #32325d; */
   color: #fff;
   padding: 0 2rem 2rem;
 }
 
 .card-para {
   font-size: 2rem;
-  /* color: #32325d; */
   color: #fff;
   padding: 0 2.5rem;
   text-align: justify;
@@ -70,6 +66,27 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .benefits-section {
+    align-items: flex-start;
+  }
+  
+  .benefits-section .text-container {
+    width: 100%;
+    text-align: left;
+  }
+
+  .cards-container {
+    align-items: flex-start;
+    justify-content: left;
+  }
+
+  .card {
+    margin: 0 2rem 2rem 0;
+  }
+
+}
+
 @media (max-width: 800px) {
   .card {
     height: auto;
@@ -79,14 +96,16 @@
 
 @media (max-width: 500px) {
   .benefits-section {
-    padding: 0;
-  }
-
-  .benefits-section .text-container {
-    width: 90%;
+    padding: 2rem;
   }
 
   .card-para {
     padding: 1.5rem;
+  }
+
+  .card {
+    width: 100%;
+    text-align: left;
+    align-items: flex-start;
   }
 }

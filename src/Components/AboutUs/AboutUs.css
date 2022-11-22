@@ -2,12 +2,11 @@
   height: 85vh;
   position: relative;
   display: flex;
-  background-color: #6783ff08;
   padding: 5rem 15rem;
   justify-content: space-between;
   align-items: center;
   min-height: 100vh;
-  background-color: #ff4e17; /* undo */
+  background-color: #ff4e17;
 }
 
 .about-us-section .bg-img {
@@ -21,27 +20,20 @@
 .about-us-section h2 {
   font-size: 3rem;
   font-weight: 500;
-  /* color: #8a46ff; */
   color: #e5e5e5;
 }
 
 .about-us-section h1 {
   font-size: 6.5rem;
   padding-bottom: 1rem;
-  color: #fff; /* undo */
+  color: #fff;
 }
 
 .about-us-section p {
   font-size: 2rem;
-  /* color: #32325d; */
   color: #fff;
   padding-bottom: 1rem;
   line-height: 2.5rem;
-}
-
-.about-us-section span {
-  /* color: #20c997; */
-  /* color: #000; */
 }
 
 .about-us-section .btn-container {
@@ -50,18 +42,21 @@
 
 .about-us-section .btn {
   font-size: 2rem;
-  /* background-color: #8a46ff; */
   background-color: #fff;
   color: #000;
   margin-top: 3rem;
   border: none;
   padding: 1.6rem 4rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 @media (max-width: 1300px) {
+  .about-us-section {
+    padding: 5rem;
+  }
+
   .about-us-section .bg-img {
     left: 5rem;
   }
@@ -75,8 +70,9 @@
   .about-us-section {
     height: 120vh;
     flex-direction: column-reverse;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: center;
   }
 }
 

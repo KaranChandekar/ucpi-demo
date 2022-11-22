@@ -38,7 +38,7 @@ footer {
   border-style: none;
   font-size: 1.5rem;
   border-radius: 0.5rem;
-  width: 30rem;
+  width: 40rem;
   margin-right: 2rem;
   background-color: hsla(0, 0%, 100%, 0.15);
   color: #fff;
@@ -99,15 +99,53 @@ footer {
   footer {
     padding: 4rem 5rem;
   }
+
+  .footer-logo {
+    font-size: 6rem;
+  }
+
+  .subscribe-container h1 {
+    font-size: 4rem;
+  }
+
+  .subscribe-container p {
+    font-size: 2.5rem;
+  }
+
+  .form input {
+    font-size: 2rem;
+  }
+
+  .form a {
+    font-size: 2rem;
+  }
+
+  .footer-bottom p {
+    font-size: 2rem;
+  }
+
+  .footer-bottom .links a {
+    font-size: 2rem;
+  }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .footer-top {
     flex-direction: column;
   }
 
   .subscribe-container {
-    margin-top: 2rem;
+    margin-top: 5rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-bottom .links {
+    margin-bottom: 4rem;
   }
 }
 
@@ -121,16 +159,11 @@ footer {
   }
 
   .form input {
+    width: 100%;
     margin-bottom: 2rem;
   }
 
-  .footer-bottom {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-
-  .footer-bottom .links {
-    margin-bottom: 4rem;
+  .form a {
+    width: 100%;
   }
 }

@@ -37,7 +37,6 @@
 .blockchain-container {
   display: flex;
   width: 50rem;
-  justify-content: center;
   padding: 2rem;
   flex-wrap: wrap;
   margin-right: 10rem;
@@ -80,13 +79,14 @@
 }
 
 @media (max-width: 1000px) {
-  .supported-blockchains-section {
+  .supported-blockchains-section .container {
     flex-direction: column;
-    text-align: center;
+    align-items: flex-start;
+    padding: 5rem;
   }
 
   .supported-blockchains-section .headings {
-    align-items: center;
+    align-items: flex-start;
     margin: 0;
   }
 
@@ -95,15 +95,22 @@
   }
 
   .blockchain-container {
-    margin-right: 0;
+    width: 100%;
+    margin: 4rem 0 0 0;
+    padding: 0;
+  }
+
+  .blockchain {
+    margin: 4rem 4rem 4rem 0;
   }
 }
 
 @media (max-width: 500px) {
   .supported-blockchains-section {
     min-height: 100vh;
-    justify-content: center;
-    padding: 3rem 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0;
   }
 
   .blockchain-container {
