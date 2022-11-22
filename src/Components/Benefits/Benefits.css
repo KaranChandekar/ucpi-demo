@@ -103,9 +103,11 @@
     padding: 1.5rem;
   }
 
+
   .card {
     width: 100%;
     text-align: left;
     align-items: flex-start;
+    margin: 2rem 0;
   }
 }
