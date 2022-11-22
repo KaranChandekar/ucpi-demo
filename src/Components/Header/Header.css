@@ -3,13 +3,15 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 2.3rem 10rem;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-color: #000;
 }
 
 .logo-heading {
   font-size: 5rem;
   font-weight: 400;
-  color: #8a46ff;
+  /* color: #8a46ff; */
+  color: #ff4e17;
   cursor: pointer;
 }
 
@@ -21,29 +23,27 @@ header {
   font-size: 1.7rem;
   font-weight: 500;
   padding: 1rem 1.5rem;
-  color: #5e6278;
+  /* color: #5e6278; */
+  color: #fff;
   cursor: pointer;
   transition: all 0.3s;
 }
 
 .list-item:hover {
-  color: #32325d;
+  /* color: #32325d; */
 }
 
 .nav-btn {
   font-size: 1.8rem;
-  padding: 1.5rem 2rem;
-  background-color: #8a46ff;
+  /* background-color: #8a46ff; */
+  background-color: #ff4e17;
   color: #ffffff;
   border: none;
-  border-radius: 1rem;
+  padding: 1.6rem 4rem;
+  border-radius: .5rem;
   margin-left: 2rem;
   cursor: pointer;
   transition: all 0.2s;
-}
-
-.nav-btn:hover {
-  background-color: #6610f2;
 }
 
 #menu-bar {

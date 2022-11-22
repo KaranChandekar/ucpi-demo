@@ -86,7 +86,7 @@ export const Header = () => {
           offset={50}
           duration={500}
         >
-          Know More
+          Contact
         </Link>
 
         <button className="nav-btn">Get in touch</button>
