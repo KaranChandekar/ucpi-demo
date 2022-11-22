@@ -10,30 +10,32 @@ import "./SupportedBlockChains.css";
 export const SupportedBlockChains = () => {
   return (
     <section className="supported-blockchains-section">
-      <div className="headings">
-        <h2>Your_id@ucpi or Your_id@brand_name</h2>
-        <h1>Supported BlockChains</h1>
-      </div>
-      <div className="blockchain-container">
-        <div className="blockchain">
-          <img src={ethereum} alt="" />
-          <p>Ethereum</p>
+      <div className="container">
+        <div className="headings">
+          <h2>Your_id@ucpi or Your_id@brand_name</h2>
+          <h1>Supported BlockChains</h1>
         </div>
-        <div className="blockchain">
-          <img src={polygon} alt="" />
-          <p>Polygon</p>
-        </div>
-        <div className="blockchain">
-          <img src={tron} alt="" />
-          <p>Tron</p>
-        </div>
-        <div className="blockchain">
-          <img src={solana} alt="" />
-          <p>Solana</p>
-        </div>
-        <div className="blockchain">
-          <img src={binance} alt="" />
-          <p>Binance</p>
+        <div className="blockchain-container">
+          <div className="blockchain">
+            <img src={ethereum} alt="" />
+            <p>Ethereum</p>
+          </div>
+          <div className="blockchain">
+            <img src={polygon} alt="" />
+            <p>Polygon</p>
+          </div>
+          <div className="blockchain">
+            <img src={tron} alt="" />
+            <p>Tron</p>
+          </div>
+          <div className="blockchain">
+            <img src={solana} alt="" />
+            <p>Solana</p>
+          </div>
+          <div className="blockchain">
+            <img src={binance} alt="" />
+            <p>Binance</p>
+          </div>
         </div>
       </div>
     </section>
