@@ -1,11 +1,11 @@
 import React from "react";
-import bg2 from "../images/bg2.jpg";
+import contactImg from "../images/contact.png";
 import "./KnowMore.css";
 
 export const KnowMore = () => {
   return (
     <section className="know-more-section" id="know-more">
-      <img className="bg-img" src={bg2} alt="background img" />
+      <img className="bg-img" src={contactImg} alt="background img" />
       <div className="text-container">
         <h2>UPI for crypto Payments.</h2>
         <h1>Want to know more about UCPI?</h1>

@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row-reverse;
+  background-color: #000;
 }
 
 .know-more-section .text-container {
@@ -15,22 +16,19 @@
 .know-more-section h2 {
   font-size: 3rem;
   font-weight: 500;
-  color: #8a46ff;
+  color: #e5e5e5;
 }
 
 .know-more-section h1 {
   font-size: 6rem;
   padding-bottom: 2rem;
+  color: #fff;
 }
 
 .know-more-section p {
   font-size: 2rem;
-  color: #32325d;
+  color: #fff;
   padding-bottom: 5rem;
-}
-
-.section-3 span {
-  color: #20c997;
 }
 
 .know-more-section .btn-container {
@@ -39,36 +37,31 @@
 
 .know-more-section .btn {
   font-size: 1.8rem;
-  padding: 1.8rem 2rem;
-  border: 2px solid #8a46ff;
-  border-radius: 1rem;
+  padding: 1.6rem 4rem;
+  border: 2px solid #ff4e17;
+  border-radius: .5rem;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .know-more-section .btn-1 {
-  background-color: #8a46ff;
-  color: #ffffff;
+  background-color: #ff4e17;
+  color: #fff;
   margin-right: 3rem;
 }
 
-.know-more-section .btn-1:hover {
-  background-color: #6610f2;
-  border-color: #6610f2;
-}
-
 .know-more-section .btn-2 {
-  background-color: #ffffff;
-  color: #8a46ff;
+  background-color: #000;
+  color: #ff4e17;
 }
 
 .know-more-section .btn-2:hover {
-  background-color: #8a46ff;
-  color: #ffffff;
+  background-color: #ff4e17;
+  color: #fff;
 }
 
 .know-more-section .bg-img {
-  width: 55rem;
+  width: 50rem;
 }
 
 @media (max-width: 1300px) {
