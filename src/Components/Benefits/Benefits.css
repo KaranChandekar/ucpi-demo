@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   padding: 0 15rem;
+  background-color: #000; /* undo */
 }
 
 .benefits-section .text-container {
@@ -15,12 +16,14 @@
 .benefits-section .text-container h2 {
   font-size: 3rem;
   font-weight: 500;
-  color: #8a46ff;
+  /* color: #8a46ff; */
+  color: #e5e5e5;
   margin-top: 5rem;
 }
 
 .benefits-section .text-container h1 {
   font-size: 6rem;
+  color: #fff;
 }
 
 .cards-container {
@@ -37,7 +40,8 @@
   text-align: center;
   margin: 2rem;
   border-radius: 0.8rem;
-  box-shadow: 0px 0px 5px 0px rgba(76, 87, 125, 0.25);
+  /* box-shadow: 0px 0px 5px 0px rgba(76, 87, 125, 0.25); */
+  border: 2px solid #4d4d4d; /* undo */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,13 +51,15 @@
 .card-heading {
   font-size: 3rem;
   font-weight: 500;
-  color: #32325d;
+  /* color: #32325d; */
+  color: #fff;
   padding: 0 2rem 2rem;
 }
 
 .card-para {
   font-size: 2rem;
-  color: #32325d;
+  /* color: #32325d; */
+  color: #fff;
   padding: 0 2.5rem;
   text-align: justify;
 }
