@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import { Link } from "react-scroll";
+import ucpiLogo from '../images/UCPI.jpg'
 
 export const Header = () => {
   const [show, setShow] = useState(false);
@@ -12,7 +13,7 @@ export const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <p className="logo-heading">UCPI</p>
+        <img className="logo-img" src={ucpiLogo} alt="" />
       </div>
 
       <div

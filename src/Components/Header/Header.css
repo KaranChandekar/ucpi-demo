@@ -6,10 +6,8 @@ header {
   background-color: #000;
 }
 
-.logo-heading {
-  font-size: 5rem;
-  font-weight: 400;
-  color: #ff4e17;
+.logo-img {
+  width: 15rem;
   cursor: pointer;
 }
 
@@ -99,8 +97,8 @@ header {
     padding: 2.5rem;
   }
 
-  .logo-heading {
-    font-size: 4rem;
+  .logo-img {
+    width: 10rem;
   }
 
   header .nav .list-item {
