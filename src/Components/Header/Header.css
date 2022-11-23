@@ -4,6 +4,10 @@ header {
   align-items: center;
   padding: 2.3rem 10rem;
   background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .logo-img {

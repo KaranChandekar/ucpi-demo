@@ -1,5 +1,4 @@
 import React from "react";
-import { Header } from "./Components/Header/Header";
 import { Home } from "./Components/Home/Home";
 import { Features } from "./Components/Features/Features";
 import { SupportedBlockChains } from "./Components/SupportedBlockChains/SupportedBlockChains";
@@ -14,7 +13,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Header />
       <Home />
       <Features />
       <SupportedBlockChains />

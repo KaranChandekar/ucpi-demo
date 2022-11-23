@@ -1,10 +1,12 @@
 import React from "react";
 import "./Home.css";
 import { TypeAnimation } from "react-type-animation";
+import { Header } from "../Header/Header";
 
 export const Home = () => {
   return (
     <section className="home-section" id="home">
+      <Header />
       <div className="text-container">
         <h1 className="heading">
           Making web3 easy for
