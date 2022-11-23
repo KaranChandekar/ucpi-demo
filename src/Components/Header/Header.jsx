@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import { Link } from "react-scroll";
-import ucpiLogo from '../images/UCPI.jpg'
+import ucpiLogo from "../images/UCPI.jpg";
 
 export const Header = () => {
   const [show, setShow] = useState(false);
@@ -37,17 +37,6 @@ export const Header = () => {
         <Link
           className="list-item"
           activeClass="active"
-          to="features"
-          spy={true}
-          smooth={true}
-          offset={50}
-          duration={500}
-        >
-          Features
-        </Link>
-        <Link
-          className="list-item"
-          activeClass="active"
           to="about-us"
           spy={true}
           smooth={true}
@@ -59,17 +48,6 @@ export const Header = () => {
         <Link
           className="list-item"
           activeClass="active"
-          to="benefits"
-          spy={true}
-          smooth={true}
-          offset={50}
-          duration={500}
-        >
-          Benefits
-        </Link>
-        <Link
-          className="list-item"
-          activeClass="active"
           to="products"
           spy={true}
           smooth={true}
@@ -77,6 +55,17 @@ export const Header = () => {
           duration={500}
         >
           Products
+        </Link>
+        <Link
+          className="list-item"
+          activeClass="active"
+          to="benefits"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
+          Benefits
         </Link>
         <Link
           className="list-item"

@@ -1,6 +1,5 @@
 import React from "react";
 import { Home } from "./Components/Home/Home";
-import { Features } from "./Components/Features/Features";
 import { SupportedBlockChains } from "./Components/SupportedBlockChains/SupportedBlockChains";
 import { AboutUs } from "./Components/AboutUs/AboutUs";
 import { Benefits } from "./Components/Benefits/Benefits";
@@ -14,11 +13,10 @@ function App() {
   return (
     <>
       <Home />
-      <Features />
-      <SupportedBlockChains />
       <AboutUs />
-      <Benefits />
       <Products />
+      <SupportedBlockChains />
+      <Benefits />
       <KnowMore />
       <Footer />
     </>
