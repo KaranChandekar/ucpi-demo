@@ -123,4 +123,8 @@
     margin-right: 0;
     margin-bottom: 2rem;
   }
+
+  .btn {
+    width: 100%;
+  }
 }
