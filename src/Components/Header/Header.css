@@ -94,11 +94,7 @@ header {
 
 @media (max-width: 500px) {
   header {
-    padding: 2.5rem;
-  }
-
-  .logo-img {
-    width: 10rem;
+    padding: 2rem 2.5rem;
   }
 
   header .nav .list-item {
