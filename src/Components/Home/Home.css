@@ -2,9 +2,10 @@
   display: flex;
   padding: 5rem 15rem;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   min-height: 90vh;
-  background-color: #000; 
+  background-color: #000;
+  text-align: center;
 }
 
 .home-section .text-container {
@@ -12,8 +13,9 @@
 }
 
 .home-section .heading {
-  font-size: 7.5rem;
-  line-height: 10rem;
+  font-size: 7rem;
+  font-weight: 500;
+  line-height: 8rem;
   color: #fff;
 }
 
@@ -29,13 +31,15 @@
 
 .home-section .btn-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
   font-size: 2rem;
   border: 2px solid #ff4e17;
   padding: 1.6rem 4rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   cursor: pointer;
   transition: all 0.2s;
 }
@@ -56,17 +60,9 @@
   color: #fff;
 }
 
-.home-section .bg-img {
-  width: 50rem;
-}
-
 @media (max-width: 1300px) {
   .home-section {
     padding: 5rem;
-  }
-
-  .home-section .bg-img {
-    width: 50rem;
   }
 }
 
@@ -98,10 +94,6 @@
   .home-section .heading {
     font-size: 6rem;
     line-height: 7rem;
-  }
-
-  .home-section .bg-img {
-    width: 40rem;
   }
 }
 

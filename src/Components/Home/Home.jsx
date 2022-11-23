@@ -8,18 +8,15 @@ export const Home = () => {
     <section className="home-section" id="home">
       <div className="text-container">
         <h1 className="heading">
-          Universal <span>Crypto</span> Protocol Interface
+          Making web3 easy for <span>Onboarding</span>
         </h1>
         <p className="paragraph">
-          Decentralised infra for Web3 UX and Payments
+          Web3 infra with mobile first UX.
         </p>
         <div className="btn-container">
           <button className="btn btn-1">Get Started</button>
           <button className="btn btn-2">Learn More</button>
         </div>
-      </div>
-      <div className="bg-img">
-        <Lottie animationData={cryptoCurrency} loop={true} />
       </div>
     </section>
   );
