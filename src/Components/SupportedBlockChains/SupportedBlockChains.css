@@ -3,90 +3,75 @@
   background-color: #ff4e17;
 }
 
-.supported-blockchains-section .container {
+.container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  background-color: #000; /* undo */
-  border-radius: 5rem;
+  padding: 10rem 0;
 }
 
-.supported-blockchains-section h2 {
-  font-size: 2.2rem;
-  font-weight: 500;
-  /* color: #8a46ff; */
-  color: #ff4e17;
-  color: #e5e5e5;
+.headings {
+  margin-left: 5rem;
+}
+
+.headings p {
+  font-size: 1.6rem;
+  color: #fff;
   margin-bottom: 1rem;
   letter-spacing: 0.1rem;
 }
 
-.supported-blockchains-section .headings {
-  display: flex;
-  flex-direction: column;
-  margin-left: 5rem;
-}
-
-.supported-blockchains-section .headings h1 {
+.headings h1 {
   font-size: 6rem;
   width: 30rem;
-  color: #fff; /* undo */
+  color: #fff;
 }
 
 .blockchain-container {
   display: flex;
-  width: 50rem;
+  width: 60%;
   padding: 2rem;
   flex-wrap: wrap;
-  margin-right: 10rem;
 }
 
 .blockchain {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 4rem;
+  margin: 2rem;
 }
 
-.supported-blockchains-section img {
+.blockchain img {
   width: 6rem;
   padding: 1rem;
-  /* background-color: rgb(243, 242, 250); */
-  background-color: #5e627857;
+  background-color: #000;
   border-radius: 1rem;
-  margin-bottom: 2rem;
+  margin-right: 1rem;
   cursor: pointer;
 }
 
-.supported-blockchains-section p {
+.blockchain p {
   font-size: 2rem;
   cursor: pointer;
-  /* color: #32325d; */
   color: #fff;
   transition: all 0.2s;
 }
 
-.supported-blockchains-section p:hover {
-  color: #5e6278;
-}
-
 @media (max-width: 1300px) {
   .supported-blockchains-section {
-    padding: 3rem 5rem;
+    padding: 0 5rem;
   }
 }
 
 @media (max-width: 1000px) {
-  .supported-blockchains-section .container {
+  .container {
     flex-direction: column;
-    align-items: flex-start;
-    padding: 5rem;
+    align-items: center;
+    text-align: center;
   }
 
-  .supported-blockchains-section .headings {
-    align-items: flex-start;
+  .headings {
     margin: 0;
   }
 
@@ -97,23 +82,19 @@
   .blockchain-container {
     width: 100%;
     margin: 4rem 0 0 0;
-    padding: 0;
-  }
-
-  .blockchain {
-    margin: 4rem 4rem 4rem 0;
   }
 }
 
 @media (max-width: 500px) {
   .supported-blockchains-section {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
     padding: 0;
   }
 
+  .container {
+    padding: 5rem 0;
+  }
+
   .blockchain-container {
-    width: 100%;
+    margin: 0;
   }
 }

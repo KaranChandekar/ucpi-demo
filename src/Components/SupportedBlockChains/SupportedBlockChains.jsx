@@ -12,7 +12,7 @@ export const SupportedBlockChains = () => {
     <section className="supported-blockchains-section">
       <div className="container">
         <div className="headings">
-          <h2>Your_id@ucpi or Your_id@brand_name</h2>
+          <p>Your_id@ucpi or Your_id@brand_name</p>
           <h1>Supported BlockChains</h1>
         </div>
         <div className="blockchain-container">
