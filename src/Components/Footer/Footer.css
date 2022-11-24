@@ -17,7 +17,7 @@ footer {
 }
 
 .subscribe-container p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #fff;
 }
 
@@ -30,7 +30,7 @@ footer {
   padding: 2rem 0 2rem 2rem;
   border-style: none;
   font-size: 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 2rem;
   width: 40rem;
   margin-right: 2rem;
   background-color: hsla(0, 0%, 100%, 0.15);
@@ -52,7 +52,7 @@ footer {
   color: #000;
   font-size: 1.6rem;
   font-weight: 600;
-  border-radius: 0.5rem;
+  border-radius: 2rem;
   width: 15rem;
   text-decoration: none;
   text-align: center;
@@ -99,11 +99,11 @@ footer {
   }
 
   .subscribe-container h1 {
-    font-size: 4rem;
+    font-size: 3.4rem;
   }
 
   .subscribe-container p {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .form input {
@@ -111,10 +111,6 @@ footer {
   }
 
   .form a {
-    font-size: 2rem;
-  }
-
-  .footer-bottom p {
     font-size: 2rem;
   }
 

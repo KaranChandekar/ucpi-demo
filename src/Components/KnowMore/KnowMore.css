@@ -37,7 +37,7 @@
   font-size: 1.6rem;
   font-weight: 600;
   padding: 1.6rem 4rem;
-  border-radius: 0.5rem;
+  border-radius: 2rem;
   cursor: pointer;
   transition: all 0.2s;
   border: 1px solid #fff;
@@ -76,7 +76,7 @@
 @media (max-width: 1000px) {
   .know-more-section {
     flex-direction: column-reverse;
-    text-align: left;
+    text-align: center;
     align-items: flex-start;
   }
 
@@ -101,8 +101,12 @@
   }
 
   .know-more-section .btn-container {
-    width: 100%;
-    flex-direction: column;
+    justify-content: space-between;
+    width: 38rem;
+  }
+
+  .know-more-section .btn {
+    padding: 1.6rem;
   }
 
   .know-more-section .bg-img {

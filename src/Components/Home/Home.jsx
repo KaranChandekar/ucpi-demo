@@ -32,17 +32,15 @@ export const Home = () => {
         <p className="paragraph">Web3 infra with mobile first UX.</p>
         <div className="btn-container">
           <button className="btn btn-1">Get Started</button>
-          <button className="btn btn-2">
-            <Link
-              to="about-us"
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={500}
-            >
-              About Us
-            </Link>
-          </button>
+          <Link
+            to="about-us"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            <button className="btn btn-2">About Us</button>
+          </Link>
         </div>
       </div>
     </section>

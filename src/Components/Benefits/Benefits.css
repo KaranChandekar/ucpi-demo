@@ -52,18 +52,9 @@
 }
 
 @media (max-width: 1000px) {
-  .benefits-section {
-    align-items: flex-start;
-  }
 
   .benefits-section .text-container {
     width: 100%;
-    text-align: left;
-  }
-
-  .cards-container {
-    align-items: flex-start;
-    justify-content: left;
   }
 
   .card {
@@ -80,7 +71,7 @@
 
 @media (max-width: 500px) {
   .benefits-section {
-    padding: 2rem;
+    padding: 0;
   }
 
   .card-para {
@@ -89,8 +80,6 @@
 
   .card {
     width: 100%;
-    text-align: left;
-    align-items: flex-start;
     margin: 2rem 0;
   }
 }
