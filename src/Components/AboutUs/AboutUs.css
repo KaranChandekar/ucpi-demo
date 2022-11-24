@@ -1,5 +1,4 @@
 .about-us-section {
-  height: 85vh;
   position: relative;
   display: flex;
   padding: 5rem 15rem;
@@ -47,19 +46,10 @@
   .about-us-section {
     padding: 5rem;
   }
-
-  .about-us-section .bg-img {
-    left: 5rem;
-  }
-
-  .about-us-section .text-container {
-    right: 5rem;
-  }
 }
 
 @media (max-width: 1000px) {
   .about-us-section {
-    height: 120vh;
     flex-direction: column-reverse;
     align-items: center;
     text-align: center;
