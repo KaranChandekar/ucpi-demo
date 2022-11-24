@@ -97,6 +97,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .know-more-section .btn-container {
