@@ -113,10 +113,6 @@ footer {
   .form a {
     font-size: 2rem;
   }
-
-  .footer-bottom .links a {
-    font-size: 2rem;
-  }
 }
 
 @media (max-width: 1000px) {
