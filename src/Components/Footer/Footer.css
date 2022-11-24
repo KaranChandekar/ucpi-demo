@@ -1,20 +1,13 @@
 footer {
   padding: 4rem 15rem;
-  background-color: #ff4e17;
+  background-color: #000;
 }
 
 .footer-top {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #4d4d4d;
   padding: 5rem 0;
-}
-
-.footer-logo {
-  font-size: 5rem;
-  font-weight: 400;
-  color: #fff;
-  cursor: pointer;
 }
 
 .subscribe-container h1 {
@@ -57,7 +50,8 @@ footer {
   border-style: none;
   background-color: #fff;
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
   border-radius: 0.5rem;
   width: 15rem;
   text-decoration: none;

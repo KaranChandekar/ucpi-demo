@@ -1,11 +1,14 @@
 import React from "react";
 import "./Footer.css";
+import ucpiLogo from '../images/UCPI.jpg'
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-top">
-        <p className="footer-logo">UCPI</p>
+        <div className="logo">
+          <img className="logo-img" src={ucpiLogo} alt="" />
+        </div>
         <div className="subscribe-container">
           <h1>Join The Waitlist</h1>
           <p>We will keep you updated.</p>
