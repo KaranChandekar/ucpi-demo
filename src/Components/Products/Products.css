@@ -4,7 +4,7 @@
   min-height: 100vh;
 }
 
-.products-section .black {
+ .black {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -20,13 +20,13 @@
   text-align: center;
 }
 
-.products-section .text-container p {
+ .text-container p {
   font-size: 1.8rem;
   color: #fff;
   margin-bottom: 2rem;
 }
 
-.products-section .text-container h1 {
+ .text-container h1 {
   font-size: 6rem;
   color: #fff;
 }
