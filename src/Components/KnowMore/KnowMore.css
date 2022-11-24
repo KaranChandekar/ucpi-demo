@@ -101,8 +101,7 @@
   }
 
   .know-more-section .btn-container {
-    justify-content: space-between;
-    width: 38rem;
+    width: 100%;
   }
 
   .know-more-section .btn {
@@ -120,7 +119,9 @@
 
 @media (max-width: 340px) {
   .btn-container {
+    width: 38rem;
     flex-direction: column;
+    justify-content: space-between;
   }
 
   .btn {
