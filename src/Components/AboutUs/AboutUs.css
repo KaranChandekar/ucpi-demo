@@ -61,8 +61,8 @@
   .about-us-section {
     height: 120vh;
     flex-direction: column-reverse;
-    align-items: flex-start;
-    text-align: left;
+    align-items: center;
+    text-align: center;
     justify-content: center;
   }
 }

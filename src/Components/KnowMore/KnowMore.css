@@ -77,7 +77,6 @@
   .know-more-section {
     flex-direction: column-reverse;
     text-align: center;
-    align-items: flex-start;
   }
 
   .know-more-section .text-container {
@@ -85,7 +84,7 @@
   }
 
   .know-more-section .btn-container {
-    justify-content: left;
+    justify-content: center;
   }
 }
 
@@ -115,5 +114,15 @@
 
   .know-more-section .btn-1 {
     margin-right: 0;
+  }
+}
+
+@media (max-width: 340px) {
+  .btn-container {
+    flex-direction: column;
+  }
+
+  .btn {
+    margin-bottom: 1rem;
   }
 }

@@ -18,23 +18,18 @@ export const SupportedBlockChains = () => {
         <div className="blockchain-container">
           <div className="blockchain">
             <img src={ethereum} alt="" />
-            <p>Ethereum</p>
           </div>
           <div className="blockchain">
             <img src={polygon} alt="" />
-            <p>Polygon</p>
           </div>
           <div className="blockchain">
             <img src={tron} alt="" />
-            <p>Tron</p>
           </div>
           <div className="blockchain">
             <img src={solana} alt="" />
-            <p>Solana</p>
           </div>
           <div className="blockchain">
             <img src={binance} alt="" />
-            <p>Binance</p>
           </div>
         </div>
       </div>

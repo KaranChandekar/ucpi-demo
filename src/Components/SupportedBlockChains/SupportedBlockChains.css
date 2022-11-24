@@ -36,9 +36,6 @@
 }
 
 .blockchain {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin: 2rem;
 }
 
@@ -47,7 +44,6 @@
   padding: 1rem;
   background-color: #000;
   border-radius: 1rem;
-  margin-right: 1rem;
   cursor: pointer;
 }
 
@@ -81,7 +77,8 @@
 
   .blockchain-container {
     width: 100%;
-    margin: 4rem 0 0 0;
+    margin: 0;
+    justify-content: center;
   }
 }
 
@@ -92,9 +89,5 @@
 
   .container {
     padding: 5rem 0;
-  }
-
-  .blockchain-container {
-    margin: 0;
   }
 }
