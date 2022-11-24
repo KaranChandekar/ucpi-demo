@@ -78,8 +78,6 @@ export const Header = () => {
         >
           Contact
         </Link>
-
-        <button className="nav-btn">Get in touch</button>
       </nav>
     </header>
   );

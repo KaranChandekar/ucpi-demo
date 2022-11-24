@@ -28,18 +28,6 @@ header {
   transition: all 0.3s;
 }
 
-.nav-btn {
-  font-size: 1.8rem;
-  background-color: #ff4e17;
-  color: #ffffff;
-  border: none;
-  padding: 1.6rem 4rem;
-  border-radius: 0.5rem;
-  margin-left: 2rem;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
 #menu-bar {
   font-size: 3.5rem;
   cursor: pointer;
@@ -89,23 +77,20 @@ header {
     padding: 1.5rem 0;
     margin: 1rem 5rem;
     display: block;
-  }
-
-  header .nav-btn {
-    margin: 2rem 5rem;
+    text-align: left;
   }
 }
 
 @media (max-width: 500px) {
   header {
-    padding: 2rem 2.5rem;
+    padding: 2rem;
   }
 
   header .nav .list-item {
     margin: 1rem 3rem;
   }
 
-  header .nav-btn {
-    margin: 2rem 3rem;
+  .logo-img {
+    width: 12rem;
   }
 }
