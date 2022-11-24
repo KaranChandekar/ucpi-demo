@@ -6,29 +6,27 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row-reverse;
-  background-color: #000;
+  background-color: #ff4e17;
 }
 
 .know-more-section .text-container {
   width: 55rem;
 }
 
-.know-more-section h2 {
-  font-size: 3rem;
-  font-weight: 500;
-  color: #e5e5e5;
+.text-container .sub-heading {
+  font-size: 1.6rem;
+  color: #fff;
 }
 
 .know-more-section h1 {
   font-size: 6rem;
-  padding-bottom: 2rem;
   color: #fff;
 }
 
-.know-more-section p {
+.text-container .about-para {
   font-size: 2rem;
   color: #fff;
-  padding-bottom: 5rem;
+  margin: 1rem 0 2rem 0;
 }
 
 .know-more-section .btn-container {
@@ -36,28 +34,29 @@
 }
 
 .know-more-section .btn {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
   padding: 1.6rem 4rem;
-  border: 2px solid #ff4e17;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   cursor: pointer;
   transition: all 0.2s;
+  border: 1px solid #fff;
 }
 
 .know-more-section .btn-1 {
-  background-color: #ff4e17;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   margin-right: 3rem;
 }
 
 .know-more-section .btn-2 {
-  background-color: #000;
-  color: #ff4e17;
+  color: #fff;
+  background-color: #ff4e17;
 }
 
 .know-more-section .btn-2:hover {
-  background-color: #ff4e17;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 .know-more-section .bg-img {
@@ -81,7 +80,7 @@
     align-items: flex-start;
   }
 
-  .know-more-section .text-container  {
+  .know-more-section .text-container {
     width: 100%;
   }
 
