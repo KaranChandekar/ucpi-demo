@@ -7,7 +7,7 @@ export const AboutUs = () => {
     <section className="about-us-section" id="about-us">
       <img className="bg-img" src={bg2} alt="background img" />
       <div className="text-container">
-        <h2>About Us</h2>
+        <p className="about-para">About Us</p>
         <h1>Who we are?</h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et

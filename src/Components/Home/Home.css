@@ -26,7 +26,7 @@
 .home-section .paragraph {
   font-size: 2.2rem;
   color: #fff;
-  padding: 2rem 0 6rem 0;
+  margin: 1rem 0 3rem 0;
 }
 
 .home-section .btn-container {
@@ -36,7 +36,8 @@
 }
 
 .btn {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
   border: 2px solid #ff4e17;
   padding: 1.6rem 4rem;
   border-radius: 0.5rem;
