@@ -3,7 +3,7 @@
   padding: 5rem 15rem;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
   background-color: #000;
   text-align: center;
 }
@@ -83,9 +83,6 @@
 }
 
 @media (max-width: 700px) {
-  .home-section {
-    height: 110vh;
-  }
 
   .home-section .text-container {
     width: 100%;

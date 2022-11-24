@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import { TypeAnimation } from "react-type-animation";
 import { Header } from "../Header/Header";
+import { Link } from "react-scroll";
 
 export const Home = () => {
   return (
@@ -31,7 +32,17 @@ export const Home = () => {
         <p className="paragraph">Web3 infra with mobile first UX.</p>
         <div className="btn-container">
           <button className="btn btn-1">Get Started</button>
-          <button className="btn btn-2">Learn More</button>
+          <button className="btn btn-2">
+            <Link
+              to="about-us"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              About Us
+            </Link>
+          </button>
         </div>
       </div>
     </section>
