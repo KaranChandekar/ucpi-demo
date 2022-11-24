@@ -4,7 +4,7 @@
   min-height: 100vh;
 }
 
- .black {
+.black {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -20,13 +20,13 @@
   text-align: center;
 }
 
- .text-container p {
+.text-container p {
   font-size: 1.8rem;
   color: #fff;
   margin-bottom: 2rem;
 }
 
- .text-container h1 {
+.text-container h1 {
   font-size: 6rem;
   color: #fff;
 }
@@ -74,6 +74,7 @@
   border-radius: 2rem;
   cursor: pointer;
   margin-top: 2rem;
+  border: none;
 }
 
 .product-btn a {
