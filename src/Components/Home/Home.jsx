@@ -18,7 +18,7 @@ export const Home = () => {
                 5000,
                 "Identity",
                 5000,
-                "Authenticity",
+                "Auth",
                 5000,
                 "Payments",
                 5000,

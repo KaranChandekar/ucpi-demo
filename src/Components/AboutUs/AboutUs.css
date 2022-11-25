@@ -28,6 +28,10 @@
   color: #fff;
 }
 
+.about-us-section span {
+  font-weight: 600;
+}
+
 .about-us-section .btn-container {
   display: flex;
 }

@@ -10,16 +10,10 @@ export const AboutUs = () => {
         <p className="about-para">About Us</p>
         <h1>Who we are?</h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et
-          distinctio magni sequi perspiciatis, accusantium consequuntur nulla?
-          Nulla, obcaecati!
+          UCPI is a <span>UX focused infra solution</span> for Web3 Onboarding, Identitiy, Auth and Payments. We help onboarding folks on Web3 with our simple UX.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint vero
-          quasi accusantium unde dolores? Dolore ipsa quia quasi eos maxime
-        </p>
-        <p>
-          <span>Join and entrust your financial development to us.</span>
+          Our protocols provide simple SDKs with plug-n-play. Dapps can improve user journey and bridge identity gap from Web2 to Web3.
         </p>
         <button className="btn btn-1">Get Started</button>
       </div>
