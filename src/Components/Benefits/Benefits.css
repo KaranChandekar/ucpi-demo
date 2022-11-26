@@ -31,6 +31,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-2rem);
+}
+
+.card .green {
+  color: green;
 }
 
 .card-heading {

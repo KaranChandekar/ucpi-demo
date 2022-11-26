@@ -11,8 +11,10 @@ export const Benefits = () => {
         </div>
         <div className="cards-container">
           <div className="card">
-            <h2 className="card-heading">Universal Crypto Payment Address</h2>
-            <p className="card-para">
+            <h2 className="card-heading green">
+              Universal Crypto Payment Address
+            </h2>
+            <p className="card-para green">
               Your I'd can merge all your different public wallet addresses
               across multiple Blockchains, making it truly universal. Also you
               can make different ids for different use cases for same or
@@ -20,22 +22,32 @@ export const Benefits = () => {
             </p>
           </div>
           <div className="card">
-            <h2 className="card-heading">Crypto Payments made simple</h2>
-            <p className="card-para">
-              No need to copy paste multiple wallet addresses or scan QR codes
-              to make payments. Sending crypto becomes as easy as logging into
-              your email with you UCPI id and a 6 digit PIN.
-            </p>
-          </div>
-          <div className="card">
-            <h2 className="card-heading">Making wallets interoperable</h2>
-            <p className="card-para">
+            <h2 className="card-heading green">Making wallets interoperable</h2>
+            <p className="card-para green">
               Wallets can integrate Ucpi to become interoperable and
               multi-chain. You can access all other wallets within your
               favourite wallet. Ex: you can Access your metamask addresses in
               your Phantom wallet and vice versa.
             </p>
           </div>
+          <div className="card">
+            <h2 className="card-heading green">Ucpi ids @your_brand_name</h2>
+            <p className="card-para green">
+              Become a csp and enable ur users to create ucpi id on your own
+              brand name (like .eth, .crypto, etc)
+            </p>
+          </div>
+          <div className="card">
+            <h2 className="card-heading green">
+              Non - Custodial, you own your crypto
+            </h2>
+            <p className="card-para green">
+              We don't take custody of your crypto, it always stays on your
+              wallets - promise.
+            </p>
+          </div>
+        </div>
+        <div className="cards-container">
           <div className="card">
             <h2 className="card-heading">Easy Crypto powered commerce</h2>
             <p className="card-para">
@@ -53,24 +65,16 @@ export const Benefits = () => {
             </p>
           </div>
           <div className="card">
-            <h2 className="card-heading">Ucpi ids @your_brand_name</h2>
-            <p className="card-para">
-              Become a csp and enable ur users to create ucpi id on your own
-              brand name (like .eth, .crypto, etc)
-            </p>
-          </div>
-          <div className="card">
-            <h2 className="card-heading">
-              Non - Custodial , you own your crypto
-            </h2>
-            <p className="card-para">
-              We don't take custody of your crypto, it always stays on your
-              wallets - promise.
-            </p>
-          </div>
-          <div className="card">
             <h2 className="card-heading">Instant crypto swap</h2>
             <p className="card-para">Swap your crypto anytime - that's it !</p>
+          </div>
+          <div className="card">
+            <h2 className="card-heading">Crypto Payments made simple</h2>
+            <p className="card-para">
+              No need to copy paste multiple wallet addresses or scan QR codes
+              to make payments. Sending crypto becomes as easy as logging into
+              your email with you UCPI id and a 6 digit PIN.
+            </p>
           </div>
         </div>
       </div>
