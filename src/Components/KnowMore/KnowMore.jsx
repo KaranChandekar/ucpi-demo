@@ -9,10 +9,12 @@ export const KnowMore = () => {
       <div className="text-container">
         <p className="sub-heading">UPI for crypto Payments.</p>
         <h1>Want to know more about UCPI?</h1>
-        <p className="about-para">Talk directly with us on linkedin.</p>
+        <p className="about-para">Connect with us.</p>
         <div className="btn-container">
-          <button className="btn btn-1">TALK TO DIGENDRA</button>
-          <button className="btn btn-2">TALK TO PRANJAL</button>
+          <i className="fa-brands fa-twitter btn"></i>
+          <i className="fa-brands fa-linkedin btn"></i>
+          <i className="fa-brands fa-discord btn"></i>
+          <i className="fa-brands fa-github btn"></i>
         </div>
       </div>
     </section>

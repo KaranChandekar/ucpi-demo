@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: row-reverse;
-  background-color: #ff4e17;
 }
 
 .know-more-section .text-container {
@@ -34,29 +33,18 @@
 }
 
 .know-more-section .btn {
-  font-size: 1.6rem;
-  font-weight: 600;
-  padding: 1.6rem 4rem;
+  font-size: 3.5rem;
   border-radius: 2rem;
   cursor: pointer;
   transition: all 0.2s;
-  border: 1px solid #fff;
-}
-
-.know-more-section .btn-1 {
-  background-color: #fff;
-  color: #000;
-  margin-right: 3rem;
-}
-
-.know-more-section .btn-2 {
   color: #fff;
-  background-color: #ff4e17;
+  padding: 0;
+  transition: all 0.5s;
+  margin-right: 2.5rem;
 }
 
-.know-more-section .btn-2:hover {
-  background-color: #fff;
-  color: #000;
+.know-more-section .btn:hover {
+  transform: translateY(-0.5rem);
 }
 
 .know-more-section .bg-img {
@@ -104,24 +92,14 @@
     width: 100%;
   }
 
-  .know-more-section .btn {
-    padding: 1.6rem;
-  }
-
   .know-more-section .bg-img {
     width: 100%;
-  }
-
-  .know-more-section .btn-1 {
-    margin-right: 1rem;
   }
 }
 
 @media (max-width: 340px) {
   .btn-container {
     width: 38rem;
-    flex-direction: column;
-    justify-content: space-between;
   }
 
   .btn {
