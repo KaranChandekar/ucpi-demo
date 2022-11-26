@@ -7,7 +7,6 @@ export const AboutUs = () => {
     <section className="about-us-section" id="about-us">
       <img className="bg-img" src={bg2} alt="background img" />
       <div className="text-container">
-        <p className="about-para">About Us</p>
         <h1>Who we are?</h1>
         <p>
           UCPI is a <span>UX focused infra solution</span> for Web3 Onboarding, Identitiy, Auth and Payments. We help onboarding folks on Web3 with our simple UX.

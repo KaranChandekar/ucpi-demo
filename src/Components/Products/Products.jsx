@@ -1,6 +1,10 @@
 import React from "react";
 import "./Products.css";
 import webChain from "../images/Products/web-chain.jpg";
+import ethereum from "../images/Blockchains/ethereum.png";
+import polygon from "../images/Blockchains/polygon.png";
+import binance from "../images/Blockchains/binance.png";
+import harmony from "../images/Blockchains/harmony.png";
 
 const Products = () => {
   return (
@@ -24,6 +28,12 @@ const Products = () => {
                 Visit
               </a>
             </button>
+            <div className="blockchain-container">
+              <img src={ethereum} alt="" />
+              <img src={polygon} alt="" />
+              <img src={binance} alt="" />
+              <img src={harmony} alt="" />
+            </div>
           </div>
         </div>
       </div>

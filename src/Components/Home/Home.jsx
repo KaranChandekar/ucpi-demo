@@ -15,13 +15,13 @@ export const Home = () => {
             <TypeAnimation
               sequence={[
                 "Onboarding",
-                5000,
+                3000,
                 "Identity",
-                5000,
+                3000,
                 "Auth",
-                5000,
+                3000,
                 "Payments",
-                5000,
+                3000,
               ]}
               cursor={true}
               repeat={Infinity}
