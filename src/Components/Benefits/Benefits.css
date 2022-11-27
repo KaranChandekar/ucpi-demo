@@ -35,7 +35,7 @@
 }
 
 .card:hover {
-  transform: translateY(-2rem);
+  transform: Scale(1.1);
 }
 
 .card .green {
