@@ -62,4 +62,9 @@
   .team-section .text-container {
     width: 100%;
   }
+
+  .member .links i {
+    font-size: 2.5rem;
+    margin: 2rem;
+  }
 }
