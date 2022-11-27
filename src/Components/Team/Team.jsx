@@ -4,7 +4,7 @@ import pranjal from "../images/Team/pranjal.jpeg";
 
 const Team = () => {
   return (
-    <section className="team-section">
+    <section className="team-section" id="team">
       <div className="black">
         <div className="text-container">
           <h1>The Team</h1>
