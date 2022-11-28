@@ -5,6 +5,7 @@ import { Benefits } from "./Components/Benefits/Benefits";
 import Products from "./Components/Products/Products";
 import Team from "./Components/Team/Team";
 import { KnowMore } from "./Components/KnowMore/KnowMore";
+import BookADemo from "./Components/BookADemo/BookADemo";
 import Footer from "./Components/Footer/Footer";
 
 import "./App.css";
@@ -18,6 +19,7 @@ function App() {
       <Team />
       <Benefits />
       <KnowMore />
+      <BookADemo />
       <Footer />
     </>
   );
