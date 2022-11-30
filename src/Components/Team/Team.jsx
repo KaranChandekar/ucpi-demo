@@ -23,8 +23,15 @@ const Team = () => {
             <h1>Digendra Singh Rathore</h1>
             <p>Co-Founder, CEO</p>
             <div className="links">
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-twitter"></i>
+              <a href="https://www.linkedin.com/in/dsriitr/" target="_blank">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a
+                href="https://twitter.com/dsr_iitr?t=KaGZ1oNXOZZNjPTk-Pa8IQ&s=08"
+                target="_blank"
+              >
+                <i className="fa-brands fa-twitter"></i>
+              </a>
             </div>
           </div>
           <div className="member">
@@ -34,8 +41,18 @@ const Team = () => {
             <h1>Adithya Singh Rathore</h1>
             <p>Co-Founder, CPO</p>
             <div className="links">
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-twitter"></i>
+              <a
+                href="https://www.linkedin.com/in/adityarathore/"
+                target="_blank"
+              >
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a
+                href="https://twitter.com/adie_raro?t=JiSibwOrIxAO_c82xNe-bA&s=08"
+                target="_blank"
+              >
+                <i className="fa-brands fa-twitter"></i>
+              </a>
             </div>
           </div>
           <div className="member">
@@ -45,8 +62,9 @@ const Team = () => {
             <h1>Pranjal Maurya</h1>
             <p>Co-Founder, CTO</p>
             <div className="links">
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-twitter"></i>
+              <a href="https://www.linkedin.com/in/0xpranjl/" target="_blank">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
             </div>
           </div>
         </div>
