@@ -37,17 +37,6 @@ export const Header = () => {
         <Link
           className="list-item"
           activeClass="active"
-          to="about-us"
-          spy={true}
-          smooth={true}
-          offset={50}
-          duration={500}
-        >
-          About Us
-        </Link>
-        <Link
-          className="list-item"
-          activeClass="active"
           to="products"
           spy={true}
           smooth={true}

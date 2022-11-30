@@ -10,7 +10,8 @@ const Team = () => {
         <div className="text-container">
           <h1>The Team</h1>
           <p>
-            We are team of UCPI, storytellers and developers on a mission to....
+            We are team of UCPI, storytellers and developers on a mission to
+            onboard 1 Billion users on Web3.
           </p>
         </div>
         <div className="member-container">
