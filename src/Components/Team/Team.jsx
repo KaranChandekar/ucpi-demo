@@ -2,6 +2,7 @@ import React from "react";
 import "./Team.css";
 import digendra from "../images/Team/digendra.jpg";
 import adithya from "../images/Team/adithya.jpg";
+import pranjal from "../images/Team/pranjal.jpeg";
 
 const Team = () => {
   return (
@@ -38,7 +39,9 @@ const Team = () => {
             </div>
           </div>
           <div className="member">
-            <div className="img-wrapper"></div>
+            <div className="img-wrapper">
+              <img src={pranjal} alt="" />
+            </div>
             <h1>Pranjal Maurya</h1>
             <p>Co-Founder, CTO</p>
             <div className="links">
