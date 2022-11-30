@@ -8,8 +8,6 @@ import { KnowMore } from "./Components/KnowMore/KnowMore";
 import BookADemo from "./Components/BookADemo/BookADemo";
 import Footer from "./Components/Footer/Footer";
 
-import "./App.css";
-
 function App() {
   return (
     <>
