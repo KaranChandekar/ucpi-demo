@@ -30,6 +30,8 @@
 .team-section .img-wrapper {
   width: 35rem;
   height: 38rem;
+  display: flex;
+  align-items: center;
 }
 
 .img-wrapper img {

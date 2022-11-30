@@ -1,5 +1,6 @@
 import React from "react";
 import "./Team.css";
+import digendra from "../images/Team/digendra.jpg";
 
 const Team = () => {
   return (
@@ -13,7 +14,9 @@ const Team = () => {
         </div>
         <div className="member-container">
           <div className="member">
-            <div className="img-wrapper"></div>
+            <div className="img-wrapper">
+              <img src={digendra} alt="" />
+            </div>
             <h1>Digendra Singh Rathore</h1>
             <p>Co-Founder, CEO</p>
             <div className="links">
