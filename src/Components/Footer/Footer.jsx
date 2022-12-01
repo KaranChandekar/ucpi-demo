@@ -7,7 +7,9 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-top">
         <div className="logo">
-          <img className="logo-img" src={ucpiLogo} alt="" />
+          <a href="#">
+            <img className="logo-img" src={ucpiLogo} alt="" />
+          </a>
         </div>
         <div className="subscribe-container">
           <h1>Join The Waitlist</h1>
