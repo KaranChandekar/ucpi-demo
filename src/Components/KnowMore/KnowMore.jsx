@@ -17,9 +17,7 @@ export const KnowMore = () => {
           <a href="https://www.linkedin.com/company/ucpi01/" target="_blank">
             <i className="fa-brands fa-linkedin btn"></i>
           </a>
-          <a href="" target="_blank">
-            <i className="fa-brands fa-discord btn"></i>
-          </a>
+          <i className="fa-brands fa-discord btn"></i>
           <a href="https://github.com/ucpi" target="_balnk">
             <i className="fa-brands fa-github btn"></i>
           </a>

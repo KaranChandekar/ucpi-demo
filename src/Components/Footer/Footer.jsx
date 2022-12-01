@@ -21,7 +21,9 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="links">
           <p>Join Us :</p>
-          <a href="https://twitter.com/ucpitech">Twitter</a>
+          <a href="https://twitter.com/ucpitech" target="_blank">
+            Twitter
+          </a>
           <a href="">Discord</a>
         </div>
         <p>© 2022 @ucpi. All right reserved.</p>
